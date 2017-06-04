@@ -1,0 +1,116 @@
+/* BASE */
+/* THEME */
+/* SET DEFAULT COLORS AND STYLES */
+/* line 11, scss/theme.scss */
+.base-bg {
+  background-color: #3399ff;
+}
+
+/* line 14, scss/theme.scss */
+.base {
+  color: #3399ff;
+}
+
+/* line 17, scss/theme.scss */
+.accent-bg {
+  background-color: white;
+}
+
+/* line 20, scss/theme.scss */
+.accent {
+  color: white;
+}
+
+/* line 23, scss/theme.scss */
+.light-bg {
+  background-color: #aaaaaa;
+}
+
+/* line 26, scss/theme.scss */
+.light {
+  color: #aaaaaa;
+}
+
+/* SET FONTS */
+/* line 5, scss/base.scss */
+* {
+  font-family: Lato;
+}
+
+/* line 8, scss/base.scss */
+h1, h2, h3, h4, h5, h6, header {
+  font-family: Merienda;
+}
+
+/* SET DEFAULT EM SIZE */
+/* line 13, scss/base.scss */
+body, * {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 20, scss/base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 23, scss/base.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* MONITOR */
+/* DESKTOP */
+@media screen and (max-width: 1824px) and (min-width: 1225px) {
+  /* SET FONT SIZES */
+  /* line 46, scss/base.scss */
+  header {
+    font-size: 144px;
+  }
+
+  /* line 49, scss/base.scss */
+  h1 {
+    font-size: 48px;
+  }
+
+  /* line 52, scss/base.scss */
+  h2 {
+    font-size: 30px;
+  }
+
+  /* line 55, scss/base.scss */
+  h3 {
+    font-size: 24px;
+  }
+
+  /* line 58, scss/base.scss */
+  h4 {
+    font-size: 20px;
+  }
+
+  /* line 61, scss/base.scss */
+  h5 {
+    font-size: 18px;
+  }
+
+  /* line 64, scss/base.scss */
+  h6 {
+    font-size: 16px;
+  }
+
+  /* line 67, scss/base.scss */
+  p, a {
+    font-size: 18px;
+  }
+
+  /* line 70, scss/base.scss */
+  blockquote, figcaption {
+    font-size: 18px;
+    font-style: italic;
+  }
+}
+/* LAPTOP */
+/* TABLET */
+/* MOBILE */
