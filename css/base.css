@@ -63,55 +63,151 @@ a:hover {
 }
 
 /* MONITOR */
-/* DESKTOP */
-@media screen and (max-width: 1824px) and (min-width: 1225px) {
+@media screen and (min-width: 1825px) {
   /* SET FONT SIZES */
-  /* line 47, scss/base.scss */
+  /* line 36, scss/base.scss */
   header {
     font-size: 144px;
   }
 
-  /* line 50, scss/base.scss */
+  /* line 39, scss/base.scss */
   h1 {
     font-size: 48px;
   }
 
-  /* line 53, scss/base.scss */
+  /* line 42, scss/base.scss */
   h2 {
     font-size: 30px;
   }
 
-  /* line 56, scss/base.scss */
+  /* line 45, scss/base.scss */
   h3 {
     font-size: 24px;
   }
 
-  /* line 59, scss/base.scss */
+  /* line 48, scss/base.scss */
   h4 {
     font-size: 20px;
   }
 
-  /* line 62, scss/base.scss */
+  /* line 51, scss/base.scss */
   h5 {
     font-size: 18px;
   }
 
-  /* line 65, scss/base.scss */
+  /* line 54, scss/base.scss */
   h6 {
     font-size: 16px;
   }
 
-  /* line 68, scss/base.scss */
+  /* line 57, scss/base.scss */
   p, a {
     font-size: 18px;
   }
 
-  /* line 71, scss/base.scss */
+  /* line 60, scss/base.scss */
+  blockquote, figcaption {
+    font-size: 18px;
+    font-style: italic;
+  }
+}
+/* DESKTOP */
+@media screen and (max-width: 1824px) and (min-width: 1225px) {
+  /* SET FONT SIZES */
+  /* line 75, scss/base.scss */
+  header {
+    font-size: 144px;
+  }
+
+  /* line 78, scss/base.scss */
+  h1 {
+    font-size: 48px;
+  }
+
+  /* line 81, scss/base.scss */
+  h2 {
+    font-size: 30px;
+  }
+
+  /* line 84, scss/base.scss */
+  h3 {
+    font-size: 24px;
+  }
+
+  /* line 87, scss/base.scss */
+  h4 {
+    font-size: 20px;
+  }
+
+  /* line 90, scss/base.scss */
+  h5 {
+    font-size: 18px;
+  }
+
+  /* line 93, scss/base.scss */
+  h6 {
+    font-size: 16px;
+  }
+
+  /* line 96, scss/base.scss */
+  p, a {
+    font-size: 18px;
+  }
+
+  /* line 99, scss/base.scss */
   blockquote, figcaption {
     font-size: 18px;
     font-style: italic;
   }
 }
 /* LAPTOP */
+@media screen and (max-width: 1224px) and (min-width: 991px) {
+  /* SET FONT SIZES */
+  /* line 114, scss/base.scss */
+  header {
+    font-size: 144px;
+  }
+
+  /* line 117, scss/base.scss */
+  h1 {
+    font-size: 48px;
+  }
+
+  /* line 120, scss/base.scss */
+  h2 {
+    font-size: 30px;
+  }
+
+  /* line 123, scss/base.scss */
+  h3 {
+    font-size: 24px;
+  }
+
+  /* line 126, scss/base.scss */
+  h4 {
+    font-size: 20px;
+  }
+
+  /* line 129, scss/base.scss */
+  h5 {
+    font-size: 18px;
+  }
+
+  /* line 132, scss/base.scss */
+  h6 {
+    font-size: 16px;
+  }
+
+  /* line 135, scss/base.scss */
+  p, a {
+    font-size: 18px;
+  }
+
+  /* line 138, scss/base.scss */
+  blockquote, figcaption {
+    font-size: 18px;
+    font-style: italic;
+  }
+}
 /* TABLET */
 /* MOBILE */
