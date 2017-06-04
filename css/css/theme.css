@@ -1,0 +1,31 @@
+/* THEME */
+/* SET DEFAULT COLORS AND STYLES */
+/* line 11, scss/theme.scss */
+.base-bg {
+  background-color: #3399ff;
+}
+
+/* line 14, scss/theme.scss */
+.base {
+  color: #3399ff;
+}
+
+/* line 17, scss/theme.scss */
+.accent-bg {
+  background-color: white;
+}
+
+/* line 20, scss/theme.scss */
+.accent {
+  color: white;
+}
+
+/* line 23, scss/theme.scss */
+.light-bg {
+  background-color: #aaaaaa;
+}
+
+/* line 26, scss/theme.scss */
+.light {
+  color: #aaaaaa;
+}
