@@ -285,4 +285,150 @@ a:hover {
   }
 }
 /* TABLET */
+@media screen and (max-width: 990px) and (min-width: 481px) {
+  /* SET FONT SIZES */
+  /* line 204, scss/base.scss */
+  header {
+    font-size: 144px;
+  }
+
+  /* line 207, scss/base.scss */
+  h1 {
+    font-size: 48px;
+  }
+
+  /* line 210, scss/base.scss */
+  h2 {
+    font-size: 30px;
+  }
+
+  /* line 213, scss/base.scss */
+  h3 {
+    font-size: 24px;
+  }
+
+  /* line 216, scss/base.scss */
+  h4 {
+    font-size: 20px;
+  }
+
+  /* line 219, scss/base.scss */
+  h5 {
+    font-size: 18px;
+  }
+
+  /* line 222, scss/base.scss */
+  h6 {
+    font-size: 16px;
+  }
+
+  /* line 225, scss/base.scss */
+  p, a {
+    font-size: 18px;
+  }
+
+  /* line 228, scss/base.scss */
+  blockquote, figcaption {
+    font-size: 18px;
+    font-style: italic;
+  }
+
+  /* line 232, scss/base.scss */
+  table {
+    width: 100%;
+    overflow: scroll;
+  }
+
+  /* line 236, scss/base.scss */
+  thead th {
+    font-size: 20px;
+    border-bottom: 1px solid #aaaaaa;
+    padding: 0.25em;
+  }
+
+  /* line 241, scss/base.scss */
+  tbody tr:nth-of-type(even) {
+    background-color: #efefef;
+  }
+
+  /* line 244, scss/base.scss */
+  td {
+    padding: 0.5em;
+    font-size: 14px;
+    text-align: center;
+  }
+}
 /* MOBILE */
+@media screen and (max-width: 480px) {
+  /* SET FONT SIZES */
+  /* line 260, scss/base.scss */
+  header {
+    font-size: 80px;
+  }
+
+  /* line 263, scss/base.scss */
+  h1 {
+    font-size: 40px;
+  }
+
+  /* line 266, scss/base.scss */
+  h2 {
+    font-size: 32px;
+  }
+
+  /* line 269, scss/base.scss */
+  h3 {
+    font-size: 16px;
+  }
+
+  /* line 272, scss/base.scss */
+  h4 {
+    font-size: 12px;
+  }
+
+  /* line 275, scss/base.scss */
+  h5 {
+    font-size: 10px;
+  }
+
+  /* line 278, scss/base.scss */
+  h6 {
+    font-size: 8px;
+  }
+
+  /* line 281, scss/base.scss */
+  p, a {
+    font-size: 10px;
+  }
+
+  /* line 284, scss/base.scss */
+  blockquote, figcaption {
+    font-size: 10px;
+    font-style: italic;
+  }
+
+  /* line 288, scss/base.scss */
+  table {
+    width: 100%;
+    overflow: scroll;
+  }
+
+  /* line 292, scss/base.scss */
+  thead th {
+    font-size: 20px;
+    border-bottom: 1px solid #aaaaaa;
+    padding: 0.25em;
+  }
+
+  /* line 297, scss/base.scss */
+  tbody tr:nth-of-type(even) {
+    background-color: #efefef;
+  }
+
+  /* line 300, scss/base.scss */
+  td {
+    padding: 0.5em;
+    font-size: 14px;
+    text-align: center;
+  }
+}
