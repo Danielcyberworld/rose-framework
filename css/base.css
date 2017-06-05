@@ -159,54 +159,104 @@ a:hover {
     font-size: 18px;
     font-style: italic;
   }
+
+  /* line 103, scss/base.scss */
+  table {
+    width: 100%;
+    overflow: scroll;
+  }
+
+  /* line 107, scss/base.scss */
+  thead th {
+    font-size: 20px;
+    border-bottom: 1px solid #aaaaaa;
+    padding: 0.25em;
+  }
+
+  /* line 112, scss/base.scss */
+  tbody tr:nth-of-type(even) {
+    background-color: #efefef;
+  }
+
+  /* line 115, scss/base.scss */
+  td {
+    padding: 0.5em;
+    font-size: 14px;
+    text-align: center;
+  }
 }
 /* LAPTOP */
 @media screen and (max-width: 1224px) and (min-width: 991px) {
   /* SET FONT SIZES */
-  /* line 114, scss/base.scss */
+  /* line 131, scss/base.scss */
   header {
     font-size: 144px;
   }
 
-  /* line 117, scss/base.scss */
+  /* line 134, scss/base.scss */
   h1 {
     font-size: 48px;
   }
 
-  /* line 120, scss/base.scss */
+  /* line 137, scss/base.scss */
   h2 {
     font-size: 30px;
   }
 
-  /* line 123, scss/base.scss */
+  /* line 140, scss/base.scss */
   h3 {
     font-size: 24px;
   }
 
-  /* line 126, scss/base.scss */
+  /* line 143, scss/base.scss */
   h4 {
     font-size: 20px;
   }
 
-  /* line 129, scss/base.scss */
+  /* line 146, scss/base.scss */
   h5 {
     font-size: 18px;
   }
 
-  /* line 132, scss/base.scss */
+  /* line 149, scss/base.scss */
   h6 {
     font-size: 16px;
   }
 
-  /* line 135, scss/base.scss */
+  /* line 152, scss/base.scss */
   p, a {
     font-size: 18px;
   }
 
-  /* line 138, scss/base.scss */
+  /* line 155, scss/base.scss */
   blockquote, figcaption {
     font-size: 18px;
     font-style: italic;
+  }
+
+  /* line 159, scss/base.scss */
+  table {
+    width: 100%;
+    overflow: scroll;
+  }
+
+  /* line 163, scss/base.scss */
+  thead th {
+    font-size: 20px;
+    border-bottom: 1px solid #aaaaaa;
+    padding: 0.25em;
+  }
+
+  /* line 168, scss/base.scss */
+  tbody tr:nth-of-type(even) {
+    background-color: #efefef;
+  }
+
+  /* line 171, scss/base.scss */
+  td {
+    padding: 0.5em;
+    font-size: 14px;
+    text-align: center;
   }
 }
 /* TABLET */
