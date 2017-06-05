@@ -2473,13 +2473,18 @@
   }
 
   /* line 1665, scss/modules.scss */
+  .nav-link {
+    font-size: 14px;
+  }
+
+  /* line 1668, scss/modules.scss */
   .nav-links li {
     display: inline-block;
     margin-left: 1em;
     margin-right: 1em;
   }
 
-  /* line 1670, scss/modules.scss */
+  /* line 1673, scss/modules.scss */
   .nav-header {
     font-size: 48px;
     font-family: "Merienda";
@@ -2490,110 +2495,110 @@
     transform: translate(-50%, -50%);
   }
 
-  /* line 1679, scss/modules.scss */
+  /* line 1682, scss/modules.scss */
   .nav-divider {
     border-bottom: 1px solid #eee;
   }
 
   /* TEXT CLASSES */
-  /* line 1684, scss/modules.scss */
+  /* line 1687, scss/modules.scss */
   .text-center {
     text-align: center;
   }
 
-  /* line 1687, scss/modules.scss */
+  /* line 1690, scss/modules.scss */
   .text-left {
     text-align: left;
   }
 
-  /* line 1690, scss/modules.scss */
+  /* line 1693, scss/modules.scss */
   .text-right {
     text-align: right;
   }
 
   /* BUTTONS (MD) */
-  /* line 1695, scss/modules.scss */
+  /* line 1698, scss/modules.scss */
   .md-btn_xs {
     padding: 0.15em;
     font-size: 24px;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 1700, scss/modules.scss */
+  /* line 1703, scss/modules.scss */
   .md-btn_xs:hover {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 1703, scss/modules.scss */
+  /* line 1706, scss/modules.scss */
   .md-btn_sm {
     padding: 0.25em;
     font-size: 24px;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 1708, scss/modules.scss */
+  /* line 1711, scss/modules.scss */
   .md-btn_sm:hover {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 1711, scss/modules.scss */
+  /* line 1714, scss/modules.scss */
   .md-btn_md {
     padding: 0.5em;
     font-size: 24px;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 1716, scss/modules.scss */
+  /* line 1719, scss/modules.scss */
   .md-btn_md:hover {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 1719, scss/modules.scss */
+  /* line 1722, scss/modules.scss */
   .md-btn_lg {
     padding: 0.75em;
     font-size: 24px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
-
-  /* line 1724, scss/modules.scss */
-  .md-btn_lg:hover {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
   /* line 1727, scss/modules.scss */
+  .md-btn_lg:hover {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  /* line 1730, scss/modules.scss */
   .md-btn_lg {
     padding: 0.75em;
     font-size: 24px;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 1732, scss/modules.scss */
+  /* line 1735, scss/modules.scss */
   .md-btn_lg:hover {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 1735, scss/modules.scss */
+  /* line 1738, scss/modules.scss */
   .base-btn {
     background-color: #3399ff;
     color: white;
     border: 2px solid white;
   }
 
-  /* line 1740, scss/modules.scss */
+  /* line 1743, scss/modules.scss */
   .base-btn:hover {
     background-color: white;
     color: #3399ff;
     cursor: pointer;
   }
 
-  /* line 1745, scss/modules.scss */
+  /* line 1748, scss/modules.scss */
   .accent-btn {
     background-color: white;
     color: #3399ff;
     border: 2px solid #3399ff;
   }
 
-  /* line 1750, scss/modules.scss */
+  /* line 1753, scss/modules.scss */
   .accent-btn:hover {
     background-color: #3399ff;
     color: white;
@@ -2601,12 +2606,12 @@
   }
 
   /* CUSTOM ANGLES (MD) */
-  /* line 1831, scss/modules.scss */
+  /* line 1834, scss/modules.scss */
   .md-angled-top-left {
     position: relative;
     z-index: 1;
   }
-  /* line 1763, scss/modules.scss */
+  /* line 1766, scss/modules.scss */
   .md-angled-top-left:before {
     background: inherit;
     content: '';
@@ -2618,19 +2623,19 @@
     z-index: -1;
     -webkit-backface-visibility: hidden;
   }
-  /* line 1776, scss/modules.scss */
+  /* line 1779, scss/modules.scss */
   .md-angled-top-left:before {
     top: 0;
     transform: skewY(1.5deg);
     transform-origin: 100% 0;
   }
 
-  /* line 1834, scss/modules.scss */
+  /* line 1837, scss/modules.scss */
   .md-angled-top-right {
     position: relative;
     z-index: 1;
   }
-  /* line 1763, scss/modules.scss */
+  /* line 1766, scss/modules.scss */
   .md-angled-top-right:before {
     background: inherit;
     content: '';
@@ -2642,19 +2647,19 @@
     z-index: -1;
     -webkit-backface-visibility: hidden;
   }
-  /* line 1776, scss/modules.scss */
+  /* line 1779, scss/modules.scss */
   .md-angled-top-right:before {
     top: 0;
     transform: skewY(-1.5deg);
     transform-origin: 0 0;
   }
 
-  /* line 1837, scss/modules.scss */
+  /* line 1840, scss/modules.scss */
   .md-angled-bottom-right {
     position: relative;
     z-index: 1;
   }
-  /* line 1763, scss/modules.scss */
+  /* line 1766, scss/modules.scss */
   .md-angled-bottom-right:after {
     background: inherit;
     content: '';
@@ -2666,19 +2671,19 @@
     z-index: -1;
     -webkit-backface-visibility: hidden;
   }
-  /* line 1790, scss/modules.scss */
+  /* line 1793, scss/modules.scss */
   .md-angled-bottom-right:after {
     bottom: 0;
     transform: skewY(-1.5deg);
     transform-origin: 100%;
   }
 
-  /* line 1840, scss/modules.scss */
+  /* line 1843, scss/modules.scss */
   .md-angled-bottom-left {
     position: relative;
     z-index: 1;
   }
-  /* line 1763, scss/modules.scss */
+  /* line 1766, scss/modules.scss */
   .md-angled-bottom-left:after {
     background: inherit;
     content: '';
@@ -2690,7 +2695,7 @@
     z-index: -1;
     -webkit-backface-visibility: hidden;
   }
-  /* line 1790, scss/modules.scss */
+  /* line 1793, scss/modules.scss */
   .md-angled-bottom-left:after {
     bottom: 0;
     transform: skewY(1.5deg);
@@ -2698,91 +2703,91 @@
   }
 
   /* SHADOW SETTINGS (MD) */
-  /* line 1845, scss/modules.scss */
+  /* line 1848, scss/modules.scss */
   .md-inset-shadow-bottom_xs {
     box-shadow: inset 0px -5px 30px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 1848, scss/modules.scss */
+  /* line 1851, scss/modules.scss */
   .md-inset-shadow-bottom_sm {
     box-shadow: inset 0px -15px 40px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 1851, scss/modules.scss */
+  /* line 1854, scss/modules.scss */
   .md-inset-shadow-bottom_md {
     box-shadow: inset 0px -20px 50px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 1854, scss/modules.scss */
+  /* line 1857, scss/modules.scss */
   .md-inset-shadow-bottom_lg {
     box-shadow: inset 0px -25px 50px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 1857, scss/modules.scss */
+  /* line 1860, scss/modules.scss */
   .md-inset-shadow-top_xs {
     box-shadow: inset 0px -5px 30px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 1860, scss/modules.scss */
+  /* line 1863, scss/modules.scss */
   .md-inset-shadow-top_sm {
     box-shadow: inset 0px 15px 40px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 1863, scss/modules.scss */
+  /* line 1866, scss/modules.scss */
   .md-inset-shadow-top_md {
     box-shadow: inset 0px 20px 50px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 1866, scss/modules.scss */
+  /* line 1869, scss/modules.scss */
   .md-inset-shadow-top_lg {
     box-shadow: inset 0px 25px 50px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 1869, scss/modules.scss */
+  /* line 1872, scss/modules.scss */
   .md-inset-shadow_xs {
     box-shadow: inset 0px 1px 90px -14px rgba(0, 0, 0, 0.75);
   }
 
-  /* line 1872, scss/modules.scss */
+  /* line 1875, scss/modules.scss */
   .md-inset-shadow_sm {
     box-shadow: inset 0px 2px 100px -14px rgba(0, 0, 0, 0.75);
   }
 
-  /* line 1875, scss/modules.scss */
+  /* line 1878, scss/modules.scss */
   .md-inset-shadow_md {
     box-shadow: inset 0px 2px 111px -14px rgba(0, 0, 0, 0.75);
   }
 
-  /* line 1878, scss/modules.scss */
+  /* line 1881, scss/modules.scss */
   .md-inset-shadow_lg {
     box-shadow: inset 0px 2px 187px 11px rgba(0, 0, 0, 0.75);
   }
 
   /* DISPLAY SETTINGS (MD) */
-  /* line 1883, scss/modules.scss */
+  /* line 1886, scss/modules.scss */
   .md-block {
     display: block;
   }
 
-  /* line 1886, scss/modules.scss */
+  /* line 1889, scss/modules.scss */
   .md-inline-block {
     display: inline-block;
   }
 
-  /* line 1889, scss/modules.scss */
+  /* line 1892, scss/modules.scss */
   .md-inline {
     display: inline;
   }
 
   /* ALIGNMENT (MD) */
-  /* line 1894, scss/modules.scss */
+  /* line 1897, scss/modules.scss */
   .md-vertical-align {
     position: relative;
     top: 50%;
     transform: translate(0%, -50%);
   }
 
-  /* line 1899, scss/modules.scss */
+  /* line 1902, scss/modules.scss */
   .md-horizontal-align {
     position: relative;
     left: 50%;
@@ -2790,28 +2795,28 @@
   }
 
   /* ICON SIZES (MD) */
-  /* line 1906, scss/modules.scss */
+  /* line 1909, scss/modules.scss */
   .md-icon_xs {
     font-size: 24px;
   }
 
-  /* line 1909, scss/modules.scss */
+  /* line 1912, scss/modules.scss */
   .md-icon_sm {
     font-size: 48px;
   }
 
-  /* line 1912, scss/modules.scss */
+  /* line 1915, scss/modules.scss */
   .md-icon_md {
     font-size: 56px;
   }
 
-  /* line 1915, scss/modules.scss */
+  /* line 1918, scss/modules.scss */
   .md-icon_lg {
     font-size: 96px;
   }
 
   /* SPACERS (MD) */
-  /* line 1920, scss/modules.scss */
+  /* line 1923, scss/modules.scss */
   .md-spacer_xs {
     height: 0;
     color: none;
@@ -2820,7 +2825,7 @@
     height: 1em;
   }
 
-  /* line 1927, scss/modules.scss */
+  /* line 1930, scss/modules.scss */
   .md-spacer_sm {
     height: 0;
     color: none;
@@ -2829,7 +2834,7 @@
     height: 3em;
   }
 
-  /* line 1934, scss/modules.scss */
+  /* line 1937, scss/modules.scss */
   .md-spacer_md {
     height: 0;
     color: none;
@@ -2838,7 +2843,7 @@
     height: 7em;
   }
 
-  /* line 1941, scss/modules.scss */
+  /* line 1944, scss/modules.scss */
   .md-spacer_lg {
     height: 0;
     color: none;
@@ -2848,7 +2853,7 @@
   }
 
   /* DIVIDERS (MD) */
-  /* line 1950, scss/modules.scss */
+  /* line 1953, scss/modules.scss */
   .md-divider_xs {
     width: 3em;
     margin: auto;
@@ -2856,7 +2861,7 @@
     height: 3px;
   }
 
-  /* line 1956, scss/modules.scss */
+  /* line 1959, scss/modules.scss */
   .md-divider_sm {
     width: 5em;
     margin: auto;
@@ -2864,7 +2869,7 @@
     height: 3px;
   }
 
-  /* line 1962, scss/modules.scss */
+  /* line 1965, scss/modules.scss */
   .md-divider_md {
     width: 10em;
     margin: auto;
@@ -2872,7 +2877,7 @@
     height: 3px;
   }
 
-  /* line 1968, scss/modules.scss */
+  /* line 1971, scss/modules.scss */
   .md-divider_lg {
     width: 20em;
     margin: auto;
@@ -2881,7 +2886,7 @@
   }
 
   /* RULER DIVIDERS (MD) */
-  /* line 1976, scss/modules.scss */
+  /* line 1979, scss/modules.scss */
   .md-ruler-divider_xs {
     width: 45%;
     margin: auto;
@@ -2889,7 +2894,7 @@
     height: 1px;
   }
 
-  /* line 1982, scss/modules.scss */
+  /* line 1985, scss/modules.scss */
   .md-ruler-divider_sm {
     width: 65%;
     margin: auto;
@@ -2897,7 +2902,7 @@
     height: 1px;
   }
 
-  /* line 1988, scss/modules.scss */
+  /* line 1991, scss/modules.scss */
   .md-ruler-divider_md {
     width: 90%;
     margin: auto;
@@ -2905,7 +2910,7 @@
     height: 1px;
   }
 
-  /* line 1994, scss/modules.scss */
+  /* line 1997, scss/modules.scss */
   .md-ruler-divider_lg {
     width: 100%;
     margin: auto;
@@ -2915,291 +2920,291 @@
   }
 
   /* PADDING (MD) */
-  /* line 2003, scss/modules.scss */
+  /* line 2006, scss/modules.scss */
   .md-no-padding {
     padding: 0;
   }
 
-  /* line 2006, scss/modules.scss */
+  /* line 2009, scss/modules.scss */
   .md-padding_xs {
     padding: 0.5em;
   }
 
-  /* line 2009, scss/modules.scss */
+  /* line 2012, scss/modules.scss */
   .md-padding_sm {
     padding: 1em;
   }
 
-  /* line 2012, scss/modules.scss */
+  /* line 2015, scss/modules.scss */
   .md-padding_md {
     padding: 3em;
   }
 
-  /* line 2015, scss/modules.scss */
+  /* line 2018, scss/modules.scss */
   .md-padding_lg {
     padding: 5em;
   }
 
-  /* line 2018, scss/modules.scss */
+  /* line 2021, scss/modules.scss */
   .md-padding-top_xs {
     padding-top: 0.5em;
   }
 
-  /* line 2021, scss/modules.scss */
+  /* line 2024, scss/modules.scss */
   .md-padding-top_sm {
     padding-top: 1em;
   }
 
-  /* line 2024, scss/modules.scss */
+  /* line 2027, scss/modules.scss */
   .md-padding-top_md {
     padding-top: 3em;
   }
 
-  /* line 2027, scss/modules.scss */
+  /* line 2030, scss/modules.scss */
   .md-padding-top_lg {
     padding-top: 5em;
   }
 
-  /* line 2030, scss/modules.scss */
+  /* line 2033, scss/modules.scss */
   .md-padding-left_xs {
     padding-left: 0.5em;
   }
 
-  /* line 2033, scss/modules.scss */
+  /* line 2036, scss/modules.scss */
   .md-padding-left_sm {
     padding-left: 1em;
   }
 
-  /* line 2036, scss/modules.scss */
+  /* line 2039, scss/modules.scss */
   .md-padding-left_md {
     padding-left: 3em;
   }
 
-  /* line 2039, scss/modules.scss */
+  /* line 2042, scss/modules.scss */
   .md-padding-left_lg {
     padding-left: 5em;
   }
 
-  /* line 2042, scss/modules.scss */
+  /* line 2045, scss/modules.scss */
   .md-padding-bottom_xs {
     padding-bottom: 0.5em;
   }
 
-  /* line 2045, scss/modules.scss */
+  /* line 2048, scss/modules.scss */
   .md-padding-bottom_sm {
     padding-bottom: 1em;
   }
 
-  /* line 2048, scss/modules.scss */
+  /* line 2051, scss/modules.scss */
   .md-padding-bottom_md {
     padding-bottom: 3em;
   }
 
-  /* line 2051, scss/modules.scss */
+  /* line 2054, scss/modules.scss */
   .md-padding-bottom_lg {
     padding-bottom: 5em;
   }
 
-  /* line 2054, scss/modules.scss */
+  /* line 2057, scss/modules.scss */
   .md-padding-right_xs {
     padding-right: 0.5em;
   }
 
-  /* line 2057, scss/modules.scss */
+  /* line 2060, scss/modules.scss */
   .md-padding-right_sm {
     padding-right: 1em;
   }
 
-  /* line 2060, scss/modules.scss */
+  /* line 2063, scss/modules.scss */
   .md-padding-right_md {
     padding-right: 3em;
   }
 
-  /* line 2063, scss/modules.scss */
+  /* line 2066, scss/modules.scss */
   .md-padding-right_lg {
     padding-right: 5em;
   }
 
   /* MARGIN (MD) */
-  /* line 2068, scss/modules.scss */
+  /* line 2071, scss/modules.scss */
   .md-no-margin {
     margin: 0;
   }
 
-  /* line 2071, scss/modules.scss */
+  /* line 2074, scss/modules.scss */
   .md-margin-auto {
     margin: auto;
   }
 
-  /* line 2074, scss/modules.scss */
+  /* line 2077, scss/modules.scss */
   .md-margin_xs {
     margin: 0.5em;
   }
 
-  /* line 2077, scss/modules.scss */
+  /* line 2080, scss/modules.scss */
   .md-margin_sm {
     margin: 1em;
   }
 
-  /* line 2080, scss/modules.scss */
+  /* line 2083, scss/modules.scss */
   .md-margin_md {
     margin: 3em;
   }
 
-  /* line 2083, scss/modules.scss */
+  /* line 2086, scss/modules.scss */
   .md-margin_lg {
     margin: 5em;
   }
 
-  /* line 2086, scss/modules.scss */
+  /* line 2089, scss/modules.scss */
   .md-margin-top_xs {
     margin-top: 0.5em;
   }
 
-  /* line 2089, scss/modules.scss */
+  /* line 2092, scss/modules.scss */
   .md-margin-top_sm {
     margin-top: 1em;
   }
 
-  /* line 2092, scss/modules.scss */
+  /* line 2095, scss/modules.scss */
   .md-margin-top_md {
     margin-top: 3em;
   }
 
-  /* line 2095, scss/modules.scss */
+  /* line 2098, scss/modules.scss */
   .md-margin-top_lg {
     margin-top: 5em;
   }
 
-  /* line 2098, scss/modules.scss */
+  /* line 2101, scss/modules.scss */
   .md-margin-left_xs {
     margin-left: 0.5em;
   }
 
-  /* line 2101, scss/modules.scss */
+  /* line 2104, scss/modules.scss */
   .md-margin-left_sm {
     margin-left: 1em;
   }
 
-  /* line 2104, scss/modules.scss */
+  /* line 2107, scss/modules.scss */
   .md-margin-left_md {
     margin-left: 3em;
   }
 
-  /* line 2107, scss/modules.scss */
+  /* line 2110, scss/modules.scss */
   .md-margin-left_lg {
     margin-left: 5em;
   }
 
-  /* line 2110, scss/modules.scss */
+  /* line 2113, scss/modules.scss */
   .md-margin-bottom_xs {
     margin-bottom: 0.5em;
   }
 
-  /* line 2113, scss/modules.scss */
+  /* line 2116, scss/modules.scss */
   .md-margin-bottom_sm {
     margin-bottom: 1em;
   }
 
-  /* line 2116, scss/modules.scss */
+  /* line 2119, scss/modules.scss */
   .md-margin-bottom_md {
     margin-bottom: 3em;
   }
 
-  /* line 2119, scss/modules.scss */
+  /* line 2122, scss/modules.scss */
   .md-margin-bottom_lg {
     margin-bottom: 5em;
   }
 
-  /* line 2122, scss/modules.scss */
+  /* line 2125, scss/modules.scss */
   .md-margin-right_xs {
     margin-right: 0.5em;
   }
 
-  /* line 2125, scss/modules.scss */
+  /* line 2128, scss/modules.scss */
   .md-margin-right_sm {
     margin-right: 1em;
   }
 
-  /* line 2128, scss/modules.scss */
+  /* line 2131, scss/modules.scss */
   .md-margin-right_md {
     margin-right: 3em;
   }
 
-  /* line 2131, scss/modules.scss */
+  /* line 2134, scss/modules.scss */
   .md-margin-right_lg {
     margin-right: 5em;
   }
 
   /* BUTTONS (LG) */
-  /* line 2136, scss/modules.scss */
+  /* line 2139, scss/modules.scss */
   .lg-btn_xs {
     padding: 0.15em;
     font-size: 24px;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 2141, scss/modules.scss */
+  /* line 2144, scss/modules.scss */
   .lg-btn_xs:hover {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 2144, scss/modules.scss */
+  /* line 2147, scss/modules.scss */
   .lg-btn_sm {
     padding: 0.25em;
     font-size: 24px;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 2149, scss/modules.scss */
+  /* line 2152, scss/modules.scss */
   .lg-btn_sm:hover {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 2152, scss/modules.scss */
+  /* line 2155, scss/modules.scss */
   .lg-btn_md {
     padding: 0.5em;
     font-size: 24px;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 2157, scss/modules.scss */
+  /* line 2160, scss/modules.scss */
   .lg-btn_md:hover {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 2160, scss/modules.scss */
+  /* line 2163, scss/modules.scss */
   .lg-btn_lg {
     padding: 0.75em;
     font-size: 24px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
-
-  /* line 2165, scss/modules.scss */
-  .lg-btn_lg:hover {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
   /* line 2168, scss/modules.scss */
+  .lg-btn_lg:hover {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  /* line 2171, scss/modules.scss */
   .lg-btn_lg {
     padding: 0.75em;
     font-size: 24px;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 2173, scss/modules.scss */
+  /* line 2176, scss/modules.scss */
   .lg-btn_lg:hover {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 2176, scss/modules.scss */
+  /* line 2179, scss/modules.scss */
   .base-btn {
     background-color: #3399ff;
     color: white;
     border: 2px solid white;
   }
 
-  /* line 2181, scss/modules.scss */
+  /* line 2184, scss/modules.scss */
   .base-btn:hover {
     background-color: white;
     color: #3399ff;
@@ -3207,12 +3212,12 @@
   }
 
   /* CUSTOM ANGLES (LG) */
-  /* line 2262, scss/modules.scss */
+  /* line 2265, scss/modules.scss */
   .lg-angled-top-left {
     position: relative;
     z-index: 1;
   }
-  /* line 2194, scss/modules.scss */
+  /* line 2197, scss/modules.scss */
   .lg-angled-top-left:before {
     background: inherit;
     content: '';
@@ -3224,19 +3229,19 @@
     z-index: -1;
     -webkit-backface-visibility: hidden;
   }
-  /* line 2207, scss/modules.scss */
+  /* line 2210, scss/modules.scss */
   .lg-angled-top-left:before {
     top: 0;
     transform: skewY(1.5deg);
     transform-origin: 100% 0;
   }
 
-  /* line 2265, scss/modules.scss */
+  /* line 2268, scss/modules.scss */
   .lg-angled-top-right {
     position: relative;
     z-index: 1;
   }
-  /* line 2194, scss/modules.scss */
+  /* line 2197, scss/modules.scss */
   .lg-angled-top-right:before {
     background: inherit;
     content: '';
@@ -3248,19 +3253,19 @@
     z-index: -1;
     -webkit-backface-visibility: hidden;
   }
-  /* line 2207, scss/modules.scss */
+  /* line 2210, scss/modules.scss */
   .lg-angled-top-right:before {
     top: 0;
     transform: skewY(-1.5deg);
     transform-origin: 0 0;
   }
 
-  /* line 2268, scss/modules.scss */
+  /* line 2271, scss/modules.scss */
   .lg-angled-bottom-right {
     position: relative;
     z-index: 1;
   }
-  /* line 2194, scss/modules.scss */
+  /* line 2197, scss/modules.scss */
   .lg-angled-bottom-right:after {
     background: inherit;
     content: '';
@@ -3272,19 +3277,19 @@
     z-index: -1;
     -webkit-backface-visibility: hidden;
   }
-  /* line 2221, scss/modules.scss */
+  /* line 2224, scss/modules.scss */
   .lg-angled-bottom-right:after {
     bottom: 0;
     transform: skewY(-1.5deg);
     transform-origin: 100%;
   }
 
-  /* line 2271, scss/modules.scss */
+  /* line 2274, scss/modules.scss */
   .lg-angled-bottom-left {
     position: relative;
     z-index: 1;
   }
-  /* line 2194, scss/modules.scss */
+  /* line 2197, scss/modules.scss */
   .lg-angled-bottom-left:after {
     background: inherit;
     content: '';
@@ -3296,7 +3301,7 @@
     z-index: -1;
     -webkit-backface-visibility: hidden;
   }
-  /* line 2221, scss/modules.scss */
+  /* line 2224, scss/modules.scss */
   .lg-angled-bottom-left:after {
     bottom: 0;
     transform: skewY(1.5deg);
@@ -3304,84 +3309,84 @@
   }
 
   /* SHADOW SETTINGS (LG) */
-  /* line 2276, scss/modules.scss */
+  /* line 2279, scss/modules.scss */
   .lg-inset-shadow-bottom_xs {
     box-shadow: inset 0px -5px 30px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 2279, scss/modules.scss */
+  /* line 2282, scss/modules.scss */
   .lg-inset-shadow-bottom_sm {
     box-shadow: inset 0px -15px 40px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 2282, scss/modules.scss */
+  /* line 2285, scss/modules.scss */
   .lg-inset-shadow-bottom_md {
     box-shadow: inset 0px -20px 50px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 2285, scss/modules.scss */
+  /* line 2288, scss/modules.scss */
   .lg-inset-shadow-bottom_lg {
     box-shadow: inset 0px -25px 50px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 2288, scss/modules.scss */
+  /* line 2291, scss/modules.scss */
   .lg-inset-shadow-top_xs {
     box-shadow: inset 0px -5px 30px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 2291, scss/modules.scss */
+  /* line 2294, scss/modules.scss */
   .lg-inset-shadow-top_sm {
     box-shadow: inset 0px 15px 40px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 2294, scss/modules.scss */
+  /* line 2297, scss/modules.scss */
   .lg-inset-shadow-top_md {
     box-shadow: inset 0px 20px 50px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 2297, scss/modules.scss */
+  /* line 2300, scss/modules.scss */
   .lg-inset-shadow-top_lg {
     box-shadow: inset 0px 25px 50px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 2300, scss/modules.scss */
+  /* line 2303, scss/modules.scss */
   .lg-inset-shadow_xs {
     box-shadow: inset 0px 1px 90px -14px rgba(0, 0, 0, 0.75);
   }
 
-  /* line 2303, scss/modules.scss */
+  /* line 2306, scss/modules.scss */
   .lg-inset-shadow_sm {
     box-shadow: inset 0px 2px 100px -14px rgba(0, 0, 0, 0.75);
   }
 
-  /* line 2306, scss/modules.scss */
+  /* line 2309, scss/modules.scss */
   .lg-inset-shadow_md {
     box-shadow: inset 0px 2px 111px -14px rgba(0, 0, 0, 0.75);
   }
 
-  /* line 2309, scss/modules.scss */
+  /* line 2312, scss/modules.scss */
   .lg-inset-shadow_lg {
     box-shadow: inset 0px 2px 187px 11px rgba(0, 0, 0, 0.75);
   }
 
   /* DISPLAY SETTINGS (LG) */
-  /* line 2314, scss/modules.scss */
+  /* line 2317, scss/modules.scss */
   .lg-block {
     display: block;
   }
 
-  /* line 2317, scss/modules.scss */
+  /* line 2320, scss/modules.scss */
   .lg-inline-block {
     display: inline-block;
   }
 
-  /* line 2320, scss/modules.scss */
+  /* line 2323, scss/modules.scss */
   .lg-inline {
     display: inline;
   }
 
   /* ALIGNMENT (LG) */
-  /* line 2325, scss/modules.scss */
+  /* line 2328, scss/modules.scss */
   .lg-vertical-align {
     position: relative;
     top: 50%;
@@ -3389,28 +3394,28 @@
   }
 
   /* ICON SIZES (LG) */
-  /* line 2332, scss/modules.scss */
+  /* line 2335, scss/modules.scss */
   .lg-icon_xs {
     font-size: 24px;
   }
 
-  /* line 2335, scss/modules.scss */
+  /* line 2338, scss/modules.scss */
   .lg-icon_sm {
     font-size: 48px;
   }
 
-  /* line 2338, scss/modules.scss */
+  /* line 2341, scss/modules.scss */
   .lg-icon_md {
     font-size: 56px;
   }
 
-  /* line 2341, scss/modules.scss */
+  /* line 2344, scss/modules.scss */
   .lg-icon_lg {
     font-size: 96px;
   }
 
   /* SPACERS (LG) */
-  /* line 2346, scss/modules.scss */
+  /* line 2349, scss/modules.scss */
   .lg-spacer_xs {
     height: 0;
     color: none;
@@ -3419,7 +3424,7 @@
     height: 1em;
   }
 
-  /* line 2353, scss/modules.scss */
+  /* line 2356, scss/modules.scss */
   .lg-spacer_sm {
     height: 0;
     color: none;
@@ -3428,7 +3433,7 @@
     height: 3em;
   }
 
-  /* line 2360, scss/modules.scss */
+  /* line 2363, scss/modules.scss */
   .lg-spacer_md {
     height: 0;
     color: none;
@@ -3437,7 +3442,7 @@
     height: 7em;
   }
 
-  /* line 2367, scss/modules.scss */
+  /* line 2370, scss/modules.scss */
   .lg-spacer_lg {
     height: 0;
     color: none;
@@ -3447,7 +3452,7 @@
   }
 
   /* DIVIDERS (LG) */
-  /* line 2376, scss/modules.scss */
+  /* line 2379, scss/modules.scss */
   .lg-divider_xs {
     width: 3em;
     margin: auto;
@@ -3455,7 +3460,7 @@
     height: 3px;
   }
 
-  /* line 2382, scss/modules.scss */
+  /* line 2385, scss/modules.scss */
   .lg-divider_sm {
     width: 5em;
     margin: auto;
@@ -3463,7 +3468,7 @@
     height: 3px;
   }
 
-  /* line 2388, scss/modules.scss */
+  /* line 2391, scss/modules.scss */
   .lg-divider_md {
     width: 10em;
     margin: auto;
@@ -3471,7 +3476,7 @@
     height: 3px;
   }
 
-  /* line 2394, scss/modules.scss */
+  /* line 2397, scss/modules.scss */
   .lg-divider_lg {
     width: 20em;
     margin: auto;
@@ -3480,7 +3485,7 @@
   }
 
   /* RULER DIVIDERS (LG) */
-  /* line 2402, scss/modules.scss */
+  /* line 2405, scss/modules.scss */
   .lg-ruler-divider_xs {
     width: 45%;
     margin: auto;
@@ -3488,7 +3493,7 @@
     height: 1px;
   }
 
-  /* line 2408, scss/modules.scss */
+  /* line 2411, scss/modules.scss */
   .lg-ruler-divider_sm {
     width: 65%;
     margin: auto;
@@ -3496,7 +3501,7 @@
     height: 1px;
   }
 
-  /* line 2414, scss/modules.scss */
+  /* line 2417, scss/modules.scss */
   .lg-ruler-divider_md {
     width: 90%;
     margin: auto;
@@ -3504,7 +3509,7 @@
     height: 1px;
   }
 
-  /* line 2420, scss/modules.scss */
+  /* line 2423, scss/modules.scss */
   .lg-ruler-divider_lg {
     width: 100%;
     margin: auto;
@@ -3514,251 +3519,251 @@
   }
 
   /* PADDING (LG) */
-  /* line 2429, scss/modules.scss */
+  /* line 2432, scss/modules.scss */
   .lg-no-padding {
     padding: 0;
   }
 
-  /* line 2432, scss/modules.scss */
+  /* line 2435, scss/modules.scss */
   .lg-padding_xs {
     padding: 0.5em;
   }
 
-  /* line 2435, scss/modules.scss */
+  /* line 2438, scss/modules.scss */
   .lg-padding_sm {
     padding: 1em;
   }
 
-  /* line 2438, scss/modules.scss */
+  /* line 2441, scss/modules.scss */
   .lg-padding_md {
     padding: 3em;
   }
 
-  /* line 2441, scss/modules.scss */
+  /* line 2444, scss/modules.scss */
   .lg-padding_lg {
     padding: 5em;
   }
 
-  /* line 2444, scss/modules.scss */
+  /* line 2447, scss/modules.scss */
   .lg-padding-top_xs {
     padding-top: 0.5em;
   }
 
-  /* line 2447, scss/modules.scss */
+  /* line 2450, scss/modules.scss */
   .lg-padding-top_sm {
     padding-top: 1em;
   }
 
-  /* line 2450, scss/modules.scss */
+  /* line 2453, scss/modules.scss */
   .lg-padding-top_md {
     padding-top: 3em;
   }
 
-  /* line 2453, scss/modules.scss */
+  /* line 2456, scss/modules.scss */
   .lg-padding-top_lg {
     padding-top: 5em;
   }
 
-  /* line 2456, scss/modules.scss */
+  /* line 2459, scss/modules.scss */
   .lg-padding-left_xs {
     padding-left: 0.5em;
   }
 
-  /* line 2459, scss/modules.scss */
+  /* line 2462, scss/modules.scss */
   .lg-padding-left_sm {
     padding-left: 1em;
   }
 
-  /* line 2462, scss/modules.scss */
+  /* line 2465, scss/modules.scss */
   .lg-padding-left_md {
     padding-left: 3em;
   }
 
-  /* line 2465, scss/modules.scss */
+  /* line 2468, scss/modules.scss */
   .lg-padding-left_lg {
     padding-left: 5em;
   }
 
-  /* line 2468, scss/modules.scss */
+  /* line 2471, scss/modules.scss */
   .lg-padding-bottom_xs {
     padding-bottom: 0.5em;
   }
 
-  /* line 2471, scss/modules.scss */
+  /* line 2474, scss/modules.scss */
   .lg-padding-bottom_sm {
     padding-bottom: 1em;
   }
 
-  /* line 2474, scss/modules.scss */
+  /* line 2477, scss/modules.scss */
   .lg-padding-bottom_md {
     padding-bottom: 3em;
   }
 
-  /* line 2477, scss/modules.scss */
+  /* line 2480, scss/modules.scss */
   .lg-padding-bottom_lg {
     padding-bottom: 5em;
   }
 
-  /* line 2480, scss/modules.scss */
+  /* line 2483, scss/modules.scss */
   .lg-padding-right_xs {
     padding-right: 0.5em;
   }
 
-  /* line 2483, scss/modules.scss */
+  /* line 2486, scss/modules.scss */
   .lg-padding-right_sm {
     padding-right: 1em;
   }
 
-  /* line 2486, scss/modules.scss */
+  /* line 2489, scss/modules.scss */
   .lg-padding-right_md {
     padding-right: 3em;
   }
 
-  /* line 2489, scss/modules.scss */
+  /* line 2492, scss/modules.scss */
   .lg-padding-right_lg {
     padding-right: 5em;
   }
 
   /* MARGIN (LG) */
-  /* line 2494, scss/modules.scss */
+  /* line 2497, scss/modules.scss */
   .lg-no-margin {
     margin: 0;
   }
 
-  /* line 2497, scss/modules.scss */
+  /* line 2500, scss/modules.scss */
   .lg-margin-auto {
     margin: auto;
   }
 
-  /* line 2500, scss/modules.scss */
+  /* line 2503, scss/modules.scss */
   .lg-margin_xs {
     margin: 0.5em;
   }
 
-  /* line 2503, scss/modules.scss */
+  /* line 2506, scss/modules.scss */
   .lg-margin_sm {
     margin: 1em;
   }
 
-  /* line 2506, scss/modules.scss */
+  /* line 2509, scss/modules.scss */
   .lg-margin_md {
     margin: 3em;
   }
 
-  /* line 2509, scss/modules.scss */
+  /* line 2512, scss/modules.scss */
   .lg-margin_lg {
     margin: 5em;
   }
 
-  /* line 2512, scss/modules.scss */
+  /* line 2515, scss/modules.scss */
   .lg-margin-top_xs {
     margin-top: 0.5em;
   }
 
-  /* line 2515, scss/modules.scss */
+  /* line 2518, scss/modules.scss */
   .lg-margin-top_sm {
     margin-top: 1em;
   }
 
-  /* line 2518, scss/modules.scss */
+  /* line 2521, scss/modules.scss */
   .lg-margin-top_md {
     margin-top: 3em;
   }
 
-  /* line 2521, scss/modules.scss */
+  /* line 2524, scss/modules.scss */
   .lg-margin-top_lg {
     margin-top: 5em;
   }
 
-  /* line 2524, scss/modules.scss */
+  /* line 2527, scss/modules.scss */
   .lg-margin-left_xs {
     margin-left: 0.5em;
   }
 
-  /* line 2527, scss/modules.scss */
+  /* line 2530, scss/modules.scss */
   .lg-margin-left_sm {
     margin-left: 1em;
   }
 
-  /* line 2530, scss/modules.scss */
+  /* line 2533, scss/modules.scss */
   .lg-margin-left_md {
     margin-left: 3em;
   }
 
-  /* line 2533, scss/modules.scss */
+  /* line 2536, scss/modules.scss */
   .lg-margin-left_lg {
     margin-left: 5em;
   }
 
-  /* line 2536, scss/modules.scss */
+  /* line 2539, scss/modules.scss */
   .lg-margin-bottom_xs {
     margin-bottom: 0.5em;
   }
 
-  /* line 2539, scss/modules.scss */
+  /* line 2542, scss/modules.scss */
   .lg-margin-bottom_sm {
     margin-bottom: 1em;
   }
 
-  /* line 2542, scss/modules.scss */
+  /* line 2545, scss/modules.scss */
   .lg-margin-bottom_md {
     margin-bottom: 3em;
   }
 
-  /* line 2545, scss/modules.scss */
+  /* line 2548, scss/modules.scss */
   .lg-margin-bottom_lg {
     margin-bottom: 5em;
   }
 
-  /* line 2548, scss/modules.scss */
+  /* line 2551, scss/modules.scss */
   .lg-margin-right_xs {
     margin-right: 0.5em;
   }
 
-  /* line 2551, scss/modules.scss */
+  /* line 2554, scss/modules.scss */
   .lg-margin-right_sm {
     margin-right: 1em;
   }
 
-  /* line 2554, scss/modules.scss */
+  /* line 2557, scss/modules.scss */
   .lg-margin-right_md {
     margin-right: 3em;
   }
 
-  /* line 2557, scss/modules.scss */
+  /* line 2560, scss/modules.scss */
   .lg-margin-right_lg {
     margin-right: 5em;
   }
 
   /* BORDER RADIUS (LG) */
-  /* line 2562, scss/modules.scss */
+  /* line 2565, scss/modules.scss */
   .lg-border-radius_xs {
     border-radius: 3px;
   }
 
-  /* line 2565, scss/modules.scss */
+  /* line 2568, scss/modules.scss */
   .lg-border-radius_sm {
     border-radius: 5px;
   }
 
-  /* line 2568, scss/modules.scss */
+  /* line 2571, scss/modules.scss */
   .lg-border-radius_md {
     border-radius: 15px;
   }
 
-  /* line 2571, scss/modules.scss */
+  /* line 2574, scss/modules.scss */
   .lg-border-radius_lg {
     border-radius: 45px;
   }
 
   /* COVER SETTINGS */
-  /* line 2576, scss/modules.scss */
+  /* line 2579, scss/modules.scss */
   .cover {
     width: 100%;
     height: 100VH;
   }
 
-  /* line 2580, scss/modules.scss */
+  /* line 2583, scss/modules.scss */
   .cover-image {
     width: 100%;
     height: 100VH;
@@ -3767,13 +3772,13 @@
     background-position: bottom;
   }
 
-  /* line 2587, scss/modules.scss */
+  /* line 2590, scss/modules.scss */
   .cover-small {
     width: 100%;
     height: 50VH;
   }
 
-  /* line 2591, scss/modules.scss */
+  /* line 2594, scss/modules.scss */
   .cover-image-small {
     width: 100%;
     height: 50VH;
@@ -3783,7 +3788,7 @@
   }
 
   /* GRID CONTAINER SETTINGS */
-  /* line 2600, scss/modules.scss */
+  /* line 2603, scss/modules.scss */
   .grid {
     max-width: 1124px;
     display: block;
@@ -3791,7 +3796,7 @@
     width: 85%;
   }
 
-  /* line 2606, scss/modules.scss */
+  /* line 2609, scss/modules.scss */
   .grid-full {
     width: 100%;
     padding: 0;
@@ -3799,7 +3804,7 @@
   }
 
   /* GRID UNIT SETTINGS */
-  /* line 2613, scss/modules.scss */
+  /* line 2616, scss/modules.scss */
   .unit {
     display: inline-block;
     margin-left: 0.85%;
@@ -3808,977 +3813,977 @@
   }
 
   /* MD-16 */
-  /* line 2621, scss/modules.scss */
+  /* line 2624, scss/modules.scss */
   .md-1-16 {
     width: 4.25%;
   }
 
-  /* line 2624, scss/modules.scss */
+  /* line 2627, scss/modules.scss */
   .md-2-16 {
     width: 10.5%;
   }
 
-  /* line 2627, scss/modules.scss */
+  /* line 2630, scss/modules.scss */
   .md-3-16 {
     width: 16.75%;
   }
 
-  /* line 2630, scss/modules.scss */
+  /* line 2633, scss/modules.scss */
   .md-4-16 {
     width: 23%;
   }
 
-  /* line 2633, scss/modules.scss */
+  /* line 2636, scss/modules.scss */
   .md-5-16 {
     width: 29.25%;
   }
 
-  /* line 2636, scss/modules.scss */
+  /* line 2639, scss/modules.scss */
   .md-6-16 {
     width: 35.5%;
   }
 
-  /* line 2639, scss/modules.scss */
+  /* line 2642, scss/modules.scss */
   .md-7-16 {
     width: 41.75%;
   }
 
-  /* line 2642, scss/modules.scss */
+  /* line 2645, scss/modules.scss */
   .md-8-16 {
     width: 48%;
   }
 
-  /* line 2645, scss/modules.scss */
+  /* line 2648, scss/modules.scss */
   .md-9-16 {
     width: 54.25%;
   }
 
-  /* line 2648, scss/modules.scss */
+  /* line 2651, scss/modules.scss */
   .md-10-16 {
     width: 60.5%;
   }
 
-  /* line 2651, scss/modules.scss */
+  /* line 2654, scss/modules.scss */
   .md-11-16 {
     width: 66.75%;
   }
 
-  /* line 2654, scss/modules.scss */
+  /* line 2657, scss/modules.scss */
   .md-12-16 {
     width: 73%;
   }
 
-  /* line 2657, scss/modules.scss */
+  /* line 2660, scss/modules.scss */
   .md-13-16 {
     width: 79.25%;
   }
 
-  /* line 2660, scss/modules.scss */
+  /* line 2663, scss/modules.scss */
   .md-14-16 {
     width: 85.5%;
   }
 
-  /* line 2663, scss/modules.scss */
+  /* line 2666, scss/modules.scss */
   .md-15-16 {
     width: 91.75%;
   }
 
-  /* line 2666, scss/modules.scss */
+  /* line 2669, scss/modules.scss */
   .md-16-16 {
     width: 98%;
   }
 
-  /* line 2669, scss/modules.scss */
+  /* line 2672, scss/modules.scss */
   .md-offset-0 {
     margin-left: 0.8%;
   }
 
-  /* line 2672, scss/modules.scss */
+  /* line 2675, scss/modules.scss */
   .md-offset-1-16 {
     margin-left: 6.25%;
   }
 
-  /* line 2675, scss/modules.scss */
+  /* line 2678, scss/modules.scss */
   .md-offset-2-16 {
     margin-left: 12.5%;
   }
 
-  /* line 2678, scss/modules.scss */
+  /* line 2681, scss/modules.scss */
   .md-offset-3-16 {
     margin-left: 18.75%;
   }
 
-  /* line 2681, scss/modules.scss */
+  /* line 2684, scss/modules.scss */
   .md-offset-4-16 {
     margin-left: 25%;
   }
 
-  /* line 2684, scss/modules.scss */
+  /* line 2687, scss/modules.scss */
   .md-offset-5-16 {
     margin-left: 31.25%;
   }
 
-  /* line 2687, scss/modules.scss */
+  /* line 2690, scss/modules.scss */
   .md-offset-6-16 {
     margin-left: 37.5%;
   }
 
-  /* line 2690, scss/modules.scss */
+  /* line 2693, scss/modules.scss */
   .md-offset-7-16 {
     margin-left: 43.75%;
   }
 
-  /* line 2693, scss/modules.scss */
+  /* line 2696, scss/modules.scss */
   .md-offset-8-16 {
     margin-left: 50%;
   }
 
-  /* line 2696, scss/modules.scss */
+  /* line 2699, scss/modules.scss */
   .md-offset-9-16 {
     margin-left: 56.25%;
   }
 
-  /* line 2699, scss/modules.scss */
+  /* line 2702, scss/modules.scss */
   .md-offset-11-16 {
     margin-left: 68.75%;
   }
 
-  /* line 2702, scss/modules.scss */
+  /* line 2705, scss/modules.scss */
   .md-offset-12-16 {
     margin-left: 75%;
   }
 
-  /* line 2705, scss/modules.scss */
+  /* line 2708, scss/modules.scss */
   .md-offset-13-16 {
     margin-left: 81.25%;
   }
 
-  /* line 2708, scss/modules.scss */
+  /* line 2711, scss/modules.scss */
   .md-offset-14-16 {
     margin-left: 87.5%;
   }
 
-  /* line 2711, scss/modules.scss */
+  /* line 2714, scss/modules.scss */
   .md-offset-15-16 {
     margin-left: 93.75%;
   }
 
   /* MD-12 */
-  /* line 2715, scss/modules.scss */
+  /* line 2718, scss/modules.scss */
   .md-1-12 {
     width: 6.3%;
   }
 
-  /* line 2718, scss/modules.scss */
+  /* line 2721, scss/modules.scss */
   .md-2-12 {
     width: 14.6%;
   }
 
-  /* line 2721, scss/modules.scss */
+  /* line 2724, scss/modules.scss */
   .md-3-12 {
     width: 23%;
   }
 
-  /* line 2724, scss/modules.scss */
+  /* line 2727, scss/modules.scss */
   .md-4-12 {
     width: 31.3%;
   }
 
-  /* line 2727, scss/modules.scss */
+  /* line 2730, scss/modules.scss */
   .md-5-12 {
     width: 39.6%;
   }
 
-  /* line 2730, scss/modules.scss */
+  /* line 2733, scss/modules.scss */
   .md-6-12 {
     width: 48%;
   }
 
-  /* line 2733, scss/modules.scss */
+  /* line 2736, scss/modules.scss */
   .md-7-12 {
     width: 56.3%;
   }
 
-  /* line 2736, scss/modules.scss */
+  /* line 2739, scss/modules.scss */
   .md-8-12 {
     width: 64.6%;
   }
 
-  /* line 2739, scss/modules.scss */
+  /* line 2742, scss/modules.scss */
   .md-9-12 {
     width: 73%;
   }
 
-  /* line 2742, scss/modules.scss */
+  /* line 2745, scss/modules.scss */
   .md-10-12 {
     width: 81.3%;
   }
 
-  /* line 2745, scss/modules.scss */
+  /* line 2748, scss/modules.scss */
   .md-11-12 {
     width: 89.6%;
   }
 
-  /* line 2748, scss/modules.scss */
+  /* line 2751, scss/modules.scss */
   .md-12-12 {
     width: 98%;
   }
 
-  /* line 2751, scss/modules.scss */
+  /* line 2754, scss/modules.scss */
   .md-offset-1-12 {
     margin-left: 8.3%;
   }
 
-  /* line 2754, scss/modules.scss */
+  /* line 2757, scss/modules.scss */
   .md-offset-2-12 {
     margin-left: 16.6%;
   }
 
-  /* line 2757, scss/modules.scss */
+  /* line 2760, scss/modules.scss */
   .md-offset-3-12 {
     margin-left: 25%;
   }
 
-  /* line 2760, scss/modules.scss */
+  /* line 2763, scss/modules.scss */
   .md-offset-4-12 {
     margin-left: 33.3%;
   }
 
-  /* line 2763, scss/modules.scss */
+  /* line 2766, scss/modules.scss */
   .md-offset-5-12 {
     margin-left: 41.6%;
   }
 
-  /* line 2766, scss/modules.scss */
+  /* line 2769, scss/modules.scss */
   .md-offset-6-12 {
     margin-left: 50%;
   }
 
-  /* line 2769, scss/modules.scss */
+  /* line 2772, scss/modules.scss */
   .md-offset-7-12 {
     margin-left: 58.3%;
   }
 
-  /* line 2772, scss/modules.scss */
+  /* line 2775, scss/modules.scss */
   .md-offset-8-12 {
     margin-left: 66.6%;
   }
 
-  /* line 2775, scss/modules.scss */
+  /* line 2778, scss/modules.scss */
   .md-offset-9-12 {
     margin-left: 75%;
   }
 
-  /* line 2778, scss/modules.scss */
+  /* line 2781, scss/modules.scss */
   .md-offset-10-12 {
     margin-left: 83.3%;
   }
 
-  /* line 2781, scss/modules.scss */
+  /* line 2784, scss/modules.scss */
   .md-offset-11-12 {
     margin-left: 91.6%;
   }
 
   /* MD-8 */
-  /* line 2785, scss/modules.scss */
+  /* line 2788, scss/modules.scss */
   .md-1-8 {
     width: 10.5%;
   }
 
-  /* line 2788, scss/modules.scss */
+  /* line 2791, scss/modules.scss */
   .md-2-8 {
     width: 23%;
   }
 
-  /* line 2791, scss/modules.scss */
+  /* line 2794, scss/modules.scss */
   .md-3-8 {
     width: 35.5%;
   }
 
-  /* line 2794, scss/modules.scss */
+  /* line 2797, scss/modules.scss */
   .md-4-8 {
     width: 48%;
   }
 
-  /* line 2797, scss/modules.scss */
+  /* line 2800, scss/modules.scss */
   .md-5-8 {
     width: 58.5%;
   }
 
-  /* line 2800, scss/modules.scss */
+  /* line 2803, scss/modules.scss */
   .md-6-8 {
     width: 73%;
   }
 
-  /* line 2803, scss/modules.scss */
+  /* line 2806, scss/modules.scss */
   .md-7-8 {
     width: 85.5%;
   }
 
-  /* line 2806, scss/modules.scss */
+  /* line 2809, scss/modules.scss */
   .md-8-8 {
     width: 98%;
   }
 
-  /* line 2809, scss/modules.scss */
+  /* line 2812, scss/modules.scss */
   .md-offset-1-8 {
     margin-left: 12.5%;
   }
 
-  /* line 2812, scss/modules.scss */
+  /* line 2815, scss/modules.scss */
   .md-offset-2-8 {
     margin-left: 25%;
   }
 
-  /* line 2815, scss/modules.scss */
+  /* line 2818, scss/modules.scss */
   .md-offset-3-8 {
     margin-left: 37.5%;
   }
 
-  /* line 2818, scss/modules.scss */
+  /* line 2821, scss/modules.scss */
   .md-offset-4-8 {
     margin-left: 50%;
   }
 
-  /* line 2821, scss/modules.scss */
+  /* line 2824, scss/modules.scss */
   .md-offset-5-8 {
     margin-left: 62.5%;
   }
 
-  /* line 2824, scss/modules.scss */
+  /* line 2827, scss/modules.scss */
   .md-offset-6-8 {
     margin-left: 75%;
   }
 
-  /* line 2827, scss/modules.scss */
+  /* line 2830, scss/modules.scss */
   .md-offset-7-8 {
     margin-left: 87.5%;
   }
 
   /* MD-6 */
-  /* line 2831, scss/modules.scss */
+  /* line 2834, scss/modules.scss */
   .md-1-6 {
     width: 14.6%;
   }
 
-  /* line 2834, scss/modules.scss */
+  /* line 2837, scss/modules.scss */
   .md-2-6 {
     width: 31.3%;
   }
 
-  /* line 2837, scss/modules.scss */
+  /* line 2840, scss/modules.scss */
   .md-3-6 {
     width: 48%;
   }
 
-  /* line 2840, scss/modules.scss */
+  /* line 2843, scss/modules.scss */
   .md-4-6 {
     width: 64.6%;
   }
 
-  /* line 2843, scss/modules.scss */
+  /* line 2846, scss/modules.scss */
   .md-5-6 {
     width: 81.3%;
   }
 
-  /* line 2846, scss/modules.scss */
+  /* line 2849, scss/modules.scss */
   .md-6-6 {
     width: 98%;
   }
 
-  /* line 2849, scss/modules.scss */
+  /* line 2852, scss/modules.scss */
   .md-offset-1-6 {
     margin-left: 16.6%;
   }
 
-  /* line 2852, scss/modules.scss */
+  /* line 2855, scss/modules.scss */
   .md-offset-2-6 {
     margin-left: 33.3%;
   }
 
-  /* line 2855, scss/modules.scss */
+  /* line 2858, scss/modules.scss */
   .md-offset-3-6 {
     margin-left: 50%;
   }
 
-  /* line 2858, scss/modules.scss */
+  /* line 2861, scss/modules.scss */
   .md-offset-4-6 {
     margin-left: 66.6%;
   }
 
-  /* line 2861, scss/modules.scss */
+  /* line 2864, scss/modules.scss */
   .md-offset-5-6 {
     margin-left: 83.3%;
   }
 
   /* MD-4 */
-  /* line 2865, scss/modules.scss */
+  /* line 2868, scss/modules.scss */
   .md-1-4 {
     width: 23%;
   }
 
-  /* line 2868, scss/modules.scss */
+  /* line 2871, scss/modules.scss */
   .md-2-4 {
     width: 48%;
   }
 
-  /* line 2871, scss/modules.scss */
+  /* line 2874, scss/modules.scss */
   .md-3-4 {
     width: 73%;
   }
 
-  /* line 2874, scss/modules.scss */
+  /* line 2877, scss/modules.scss */
   .md-4-4 {
     width: 98%;
   }
 
-  /* line 2877, scss/modules.scss */
+  /* line 2880, scss/modules.scss */
   .md-offset-1-4 {
     margin-left: 25%;
   }
 
-  /* line 2880, scss/modules.scss */
+  /* line 2883, scss/modules.scss */
   .md-offset-2-4 {
     margin-left: 50%;
   }
 
-  /* line 2883, scss/modules.scss */
+  /* line 2886, scss/modules.scss */
   .md-offset-3-4 {
     margin-left: 75%;
   }
 
   /* MD-3 */
-  /* line 2887, scss/modules.scss */
+  /* line 2890, scss/modules.scss */
   .md-1-3 {
     width: 31.3%;
   }
 
-  /* line 2890, scss/modules.scss */
+  /* line 2893, scss/modules.scss */
   .md-2-3 {
     width: 64.6%;
   }
 
-  /* line 2893, scss/modules.scss */
+  /* line 2896, scss/modules.scss */
   .md-3-3 {
     width: 98%;
   }
 
-  /* line 2896, scss/modules.scss */
+  /* line 2899, scss/modules.scss */
   .md-offset-1-3 {
     margin-left: 33.3%;
   }
 
-  /* line 2899, scss/modules.scss */
+  /* line 2902, scss/modules.scss */
   .md-offset-2-3 {
     margin-left: 66.6%;
   }
 
   /* MD-2 */
-  /* line 2903, scss/modules.scss */
+  /* line 2906, scss/modules.scss */
   .md-1-2 {
     width: 48%;
   }
 
-  /* line 2906, scss/modules.scss */
+  /* line 2909, scss/modules.scss */
   .md-2-2 {
     width: 98%;
   }
 
-  /* line 2909, scss/modules.scss */
+  /* line 2912, scss/modules.scss */
   .md-offset-1-2 {
     margin-left: 50%;
   }
 
   /* MD-1 */
-  /* line 2913, scss/modules.scss */
+  /* line 2916, scss/modules.scss */
   .md-1 {
     width: 98%;
   }
 
   /* LG-16 */
-  /* line 2918, scss/modules.scss */
+  /* line 2921, scss/modules.scss */
   .lg-1-16 {
     width: 4.25%;
   }
 
-  /* line 2921, scss/modules.scss */
+  /* line 2924, scss/modules.scss */
   .lg-2-16 {
     width: 10.5%;
   }
 
-  /* line 2924, scss/modules.scss */
+  /* line 2927, scss/modules.scss */
   .lg-3-16 {
     width: 16.75%;
   }
 
-  /* line 2927, scss/modules.scss */
+  /* line 2930, scss/modules.scss */
   .lg-4-16 {
     width: 23%;
   }
 
-  /* line 2930, scss/modules.scss */
+  /* line 2933, scss/modules.scss */
   .lg-5-16 {
     width: 29.25%;
   }
 
-  /* line 2933, scss/modules.scss */
+  /* line 2936, scss/modules.scss */
   .lg-6-16 {
     width: 35.5%;
   }
 
-  /* line 2936, scss/modules.scss */
+  /* line 2939, scss/modules.scss */
   .lg-7-16 {
     width: 41.75%;
   }
 
-  /* line 2939, scss/modules.scss */
+  /* line 2942, scss/modules.scss */
   .lg-8-16 {
     width: 48%;
   }
 
-  /* line 2942, scss/modules.scss */
+  /* line 2945, scss/modules.scss */
   .lg-9-16 {
     width: 54.25%;
   }
 
-  /* line 2945, scss/modules.scss */
+  /* line 2948, scss/modules.scss */
   .lg-10-16 {
     width: 60.5%;
   }
 
-  /* line 2948, scss/modules.scss */
+  /* line 2951, scss/modules.scss */
   .lg-11-16 {
     width: 66.75%;
   }
 
-  /* line 2951, scss/modules.scss */
+  /* line 2954, scss/modules.scss */
   .lg-12-16 {
     width: 73%;
   }
 
-  /* line 2954, scss/modules.scss */
+  /* line 2957, scss/modules.scss */
   .lg-13-16 {
     width: 79.25%;
   }
 
-  /* line 2957, scss/modules.scss */
+  /* line 2960, scss/modules.scss */
   .lg-14-16 {
     width: 85.5%;
   }
 
-  /* line 2960, scss/modules.scss */
+  /* line 2963, scss/modules.scss */
   .lg-15-16 {
     width: 91.75%;
   }
 
-  /* line 2963, scss/modules.scss */
+  /* line 2966, scss/modules.scss */
   .lg-16-16 {
     width: 98%;
   }
 
-  /* line 2966, scss/modules.scss */
+  /* line 2969, scss/modules.scss */
   .lg-offset-0 {
     margin-left: 0.8%;
   }
 
-  /* line 2969, scss/modules.scss */
+  /* line 2972, scss/modules.scss */
   .lg-offset-1-16 {
     margin-left: 6.25%;
   }
 
-  /* line 2972, scss/modules.scss */
+  /* line 2975, scss/modules.scss */
   .lg-offset-2-16 {
     margin-left: 12.5%;
   }
 
-  /* line 2975, scss/modules.scss */
+  /* line 2978, scss/modules.scss */
   .lg-offset-3-16 {
     margin-left: 18.75%;
   }
 
-  /* line 2978, scss/modules.scss */
+  /* line 2981, scss/modules.scss */
   .lg-offset-4-16 {
     margin-left: 25%;
   }
 
-  /* line 2981, scss/modules.scss */
+  /* line 2984, scss/modules.scss */
   .lg-offset-5-16 {
     margin-left: 31.25%;
   }
 
-  /* line 2984, scss/modules.scss */
+  /* line 2987, scss/modules.scss */
   .lg-offset-6-16 {
     margin-left: 37.5%;
   }
 
-  /* line 2987, scss/modules.scss */
+  /* line 2990, scss/modules.scss */
   .lg-offset-7-16 {
     margin-left: 43.75%;
   }
 
-  /* line 2990, scss/modules.scss */
+  /* line 2993, scss/modules.scss */
   .lg-offset-8-16 {
     margin-left: 50%;
   }
 
-  /* line 2993, scss/modules.scss */
+  /* line 2996, scss/modules.scss */
   .lg-offset-9-16 {
     margin-left: 56.25%;
   }
 
-  /* line 2996, scss/modules.scss */
+  /* line 2999, scss/modules.scss */
   .lg-offset-11-16 {
     margin-left: 68.75%;
   }
 
-  /* line 2999, scss/modules.scss */
+  /* line 3002, scss/modules.scss */
   .lg-offset-12-16 {
     margin-left: 75%;
   }
 
-  /* line 3002, scss/modules.scss */
+  /* line 3005, scss/modules.scss */
   .lg-offset-13-16 {
     margin-left: 81.25%;
   }
 
-  /* line 3005, scss/modules.scss */
+  /* line 3008, scss/modules.scss */
   .lg-offset-14-16 {
     margin-left: 87.5%;
   }
 
-  /* line 3008, scss/modules.scss */
+  /* line 3011, scss/modules.scss */
   .lg-offset-15-16 {
     margin-left: 93.75%;
   }
 
   /* LG-12 */
-  /* line 3012, scss/modules.scss */
+  /* line 3015, scss/modules.scss */
   .lg-1-12 {
     width: 6.3%;
   }
 
-  /* line 3015, scss/modules.scss */
+  /* line 3018, scss/modules.scss */
   .lg-2-12 {
     width: 14.6%;
   }
 
-  /* line 3018, scss/modules.scss */
+  /* line 3021, scss/modules.scss */
   .lg-3-12 {
     width: 23%;
   }
 
-  /* line 3021, scss/modules.scss */
+  /* line 3024, scss/modules.scss */
   .lg-4-12 {
     width: 31.3%;
   }
 
-  /* line 3024, scss/modules.scss */
+  /* line 3027, scss/modules.scss */
   .lg-5-12 {
     width: 39.6%;
   }
 
-  /* line 3027, scss/modules.scss */
+  /* line 3030, scss/modules.scss */
   .lg-6-12 {
     width: 48%;
   }
 
-  /* line 3030, scss/modules.scss */
+  /* line 3033, scss/modules.scss */
   .lg-7-12 {
     width: 56.3%;
   }
 
-  /* line 3033, scss/modules.scss */
+  /* line 3036, scss/modules.scss */
   .lg-8-12 {
     width: 64.6%;
   }
 
-  /* line 3036, scss/modules.scss */
+  /* line 3039, scss/modules.scss */
   .lg-9-12 {
     width: 73%;
   }
 
-  /* line 3039, scss/modules.scss */
+  /* line 3042, scss/modules.scss */
   .lg-10-12 {
     width: 81.3%;
   }
 
-  /* line 3042, scss/modules.scss */
+  /* line 3045, scss/modules.scss */
   .lg-11-12 {
     width: 89.6%;
   }
 
-  /* line 3045, scss/modules.scss */
+  /* line 3048, scss/modules.scss */
   .lg-12-12 {
     width: 98%;
   }
 
-  /* line 3048, scss/modules.scss */
+  /* line 3051, scss/modules.scss */
   .lg-offset-1-12 {
     margin-left: 8.3%;
   }
 
-  /* line 3051, scss/modules.scss */
+  /* line 3054, scss/modules.scss */
   .lg-offset-2-12 {
     margin-left: 16.6%;
   }
 
-  /* line 3054, scss/modules.scss */
+  /* line 3057, scss/modules.scss */
   .lg-offset-3-12 {
     margin-left: 25%;
   }
 
-  /* line 3057, scss/modules.scss */
+  /* line 3060, scss/modules.scss */
   .lg-offset-4-12 {
     margin-left: 33.3%;
   }
 
-  /* line 3060, scss/modules.scss */
+  /* line 3063, scss/modules.scss */
   .lg-offset-5-12 {
     margin-left: 41.6%;
   }
 
-  /* line 3063, scss/modules.scss */
+  /* line 3066, scss/modules.scss */
   .lg-offset-6-12 {
     margin-left: 50%;
   }
 
-  /* line 3066, scss/modules.scss */
+  /* line 3069, scss/modules.scss */
   .lg-offset-7-12 {
     margin-left: 58.3%;
   }
 
-  /* line 3069, scss/modules.scss */
+  /* line 3072, scss/modules.scss */
   .lg-offset-8-12 {
     margin-left: 66.6%;
   }
 
-  /* line 3072, scss/modules.scss */
+  /* line 3075, scss/modules.scss */
   .lg-offset-9-12 {
     margin-left: 75%;
   }
 
-  /* line 3075, scss/modules.scss */
+  /* line 3078, scss/modules.scss */
   .lg-offset-10-12 {
     margin-left: 83.3%;
   }
 
-  /* line 3078, scss/modules.scss */
+  /* line 3081, scss/modules.scss */
   .lg-offset-11-12 {
     margin-left: 91.6%;
   }
 
   /* LG-8 */
-  /* line 3082, scss/modules.scss */
+  /* line 3085, scss/modules.scss */
   .lg-1-8 {
     width: 10.5%;
   }
 
-  /* line 3085, scss/modules.scss */
+  /* line 3088, scss/modules.scss */
   .lg-2-8 {
     width: 23%;
   }
 
-  /* line 3088, scss/modules.scss */
+  /* line 3091, scss/modules.scss */
   .lg-3-8 {
     width: 35.5%;
   }
 
-  /* line 3091, scss/modules.scss */
+  /* line 3094, scss/modules.scss */
   .lg-4-8 {
     width: 48%;
   }
 
-  /* line 3094, scss/modules.scss */
+  /* line 3097, scss/modules.scss */
   .lg-5-8 {
     width: 58.5%;
   }
 
-  /* line 3097, scss/modules.scss */
+  /* line 3100, scss/modules.scss */
   .lg-6-8 {
     width: 73%;
   }
 
-  /* line 3100, scss/modules.scss */
+  /* line 3103, scss/modules.scss */
   .lg-7-8 {
     width: 85.5%;
   }
 
-  /* line 3103, scss/modules.scss */
+  /* line 3106, scss/modules.scss */
   .lg-8-8 {
     width: 98%;
   }
 
-  /* line 3106, scss/modules.scss */
+  /* line 3109, scss/modules.scss */
   .lg-offset-1-8 {
     margin-left: 12.5%;
   }
 
-  /* line 3109, scss/modules.scss */
+  /* line 3112, scss/modules.scss */
   .lg-offset-2-8 {
     margin-left: 25%;
   }
 
-  /* line 3112, scss/modules.scss */
+  /* line 3115, scss/modules.scss */
   .lg-offset-3-8 {
     margin-left: 37.5%;
   }
 
-  /* line 3115, scss/modules.scss */
+  /* line 3118, scss/modules.scss */
   .lg-offset-4-8 {
     margin-left: 50%;
   }
 
-  /* line 3118, scss/modules.scss */
+  /* line 3121, scss/modules.scss */
   .lg-offset-5-8 {
     margin-left: 62.5%;
   }
 
-  /* line 3121, scss/modules.scss */
+  /* line 3124, scss/modules.scss */
   .lg-offset-6-8 {
     margin-left: 75%;
   }
 
-  /* line 3124, scss/modules.scss */
+  /* line 3127, scss/modules.scss */
   .lg-offset-7-8 {
     margin-left: 87.5%;
   }
 
   /* LG-6 */
-  /* line 3128, scss/modules.scss */
+  /* line 3131, scss/modules.scss */
   .lg-1-6 {
     width: 14.6%;
   }
 
-  /* line 3131, scss/modules.scss */
+  /* line 3134, scss/modules.scss */
   .lg-2-6 {
     width: 31.3%;
   }
 
-  /* line 3134, scss/modules.scss */
+  /* line 3137, scss/modules.scss */
   .lg-3-6 {
     width: 48%;
   }
 
-  /* line 3137, scss/modules.scss */
+  /* line 3140, scss/modules.scss */
   .lg-4-6 {
     width: 64.6%;
   }
 
-  /* line 3140, scss/modules.scss */
+  /* line 3143, scss/modules.scss */
   .lg-5-6 {
     width: 81.3%;
   }
 
-  /* line 3143, scss/modules.scss */
+  /* line 3146, scss/modules.scss */
   .lg-6-6 {
     width: 98%;
   }
 
-  /* line 3146, scss/modules.scss */
+  /* line 3149, scss/modules.scss */
   .lg-offset-1-6 {
     margin-left: 16.6%;
   }
 
-  /* line 3149, scss/modules.scss */
+  /* line 3152, scss/modules.scss */
   .lg-offset-2-6 {
     margin-left: 33.3%;
   }
 
-  /* line 3152, scss/modules.scss */
+  /* line 3155, scss/modules.scss */
   .lg-offset-3-6 {
     margin-left: 50%;
   }
 
-  /* line 3155, scss/modules.scss */
+  /* line 3158, scss/modules.scss */
   .lg-offset-4-6 {
     margin-left: 66.6%;
   }
 
-  /* line 3158, scss/modules.scss */
+  /* line 3161, scss/modules.scss */
   .lg-offset-5-6 {
     margin-left: 83.3%;
   }
 
   /* LG-4 */
-  /* line 3162, scss/modules.scss */
+  /* line 3165, scss/modules.scss */
   .lg-1-4 {
     width: 23%;
   }
 
-  /* line 3165, scss/modules.scss */
+  /* line 3168, scss/modules.scss */
   .lg-2-4 {
     width: 48%;
   }
 
-  /* line 3168, scss/modules.scss */
+  /* line 3171, scss/modules.scss */
   .lg-3-4 {
     width: 73%;
   }
 
-  /* line 3171, scss/modules.scss */
+  /* line 3174, scss/modules.scss */
   .lg-4-4 {
     width: 98%;
   }
 
-  /* line 3174, scss/modules.scss */
+  /* line 3177, scss/modules.scss */
   .lg-offset-1-4 {
     margin-left: 25%;
   }
 
-  /* line 3177, scss/modules.scss */
+  /* line 3180, scss/modules.scss */
   .lg-offset-2-4 {
     margin-left: 50%;
   }
 
-  /* line 3180, scss/modules.scss */
+  /* line 3183, scss/modules.scss */
   .lg-offset-3-4 {
     margin-left: 75%;
   }
 
   /* LG-3 */
-  /* line 3184, scss/modules.scss */
+  /* line 3187, scss/modules.scss */
   .lg-1-3 {
     width: 31.3%;
   }
 
-  /* line 3187, scss/modules.scss */
+  /* line 3190, scss/modules.scss */
   .lg-2-3 {
     width: 64.6%;
   }
 
-  /* line 3190, scss/modules.scss */
+  /* line 3193, scss/modules.scss */
   .lg-3-3 {
     width: 98%;
   }
 
-  /* line 3193, scss/modules.scss */
+  /* line 3196, scss/modules.scss */
   .lg-offset-1-3 {
     margin-left: 33.3%;
   }
 
-  /* line 3196, scss/modules.scss */
+  /* line 3199, scss/modules.scss */
   .lg-offset-2-3 {
     margin-left: 66.6%;
   }
 
   /* LG-2 */
-  /* line 3200, scss/modules.scss */
+  /* line 3203, scss/modules.scss */
   .lg-1-2 {
     width: 48%;
   }
 
-  /* line 3203, scss/modules.scss */
+  /* line 3206, scss/modules.scss */
   .lg-2-2 {
     width: 98%;
   }
 
-  /* line 3206, scss/modules.scss */
+  /* line 3209, scss/modules.scss */
   .lg-offset-1-2 {
     margin-left: 50%;
   }
 
   /* LG-1 */
-  /* line 3210, scss/modules.scss */
+  /* line 3213, scss/modules.scss */
   .lg-1 {
     width: 98%;
   }
@@ -4786,51 +4791,51 @@
 /* LAPTOP */
 @media screen and (max-width: 1224px) and (min-width: 991px) {
   /* NAVIGATION BAR, NAVIGATION LAYOUT */
-  /* line 3225, scss/modules.scss */
+  /* line 3228, scss/modules.scss */
   .navbar-initial {
     height: 7em;
     padding: 1em;
     background-color: white;
     transition: height 0.5s ease, padding 0.5s ease, background-color 0.5s ease;
   }
-  /* line 3230, scss/modules.scss */
+  /* line 3233, scss/modules.scss */
   .navbar-initial a {
     color: #3399ff;
     transition: color 0.5s ease;
   }
 
-  /* line 3235, scss/modules.scss */
+  /* line 3238, scss/modules.scss */
   nav {
     height: 5em;
     width: 100%;
     z-index: 10000;
     transition: height 0.5s ease, padding 0.5s ease, background-color 0.5s ease;
   }
-  /* line 3240, scss/modules.scss */
+  /* line 3243, scss/modules.scss */
   nav a {
     transition: color 0.5s ease;
   }
 
-  /* line 3244, scss/modules.scss */
+  /* line 3247, scss/modules.scss */
   .nav-shadow {
     box-shadow: 0px 5px 10px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 3247, scss/modules.scss */
+  /* line 3250, scss/modules.scss */
   .navbar-fixed-top {
     position: fixed;
     top: 0;
     left: 0;
   }
 
-  /* line 3252, scss/modules.scss */
+  /* line 3255, scss/modules.scss */
   .nav-center {
     width: 33%;
     margin: auto;
     display: block;
   }
 
-  /* line 3257, scss/modules.scss */
+  /* line 3260, scss/modules.scss */
   .nav-left {
     width: 33%;
     position: absolute;
@@ -4840,7 +4845,7 @@
     margin-left: 3em;
   }
 
-  /* line 3265, scss/modules.scss */
+  /* line 3268, scss/modules.scss */
   .nav-right {
     width: 33%;
     position: absolute;
@@ -4850,7 +4855,7 @@
     margin-right: 3em;
   }
 
-  /* line 3273, scss/modules.scss */
+  /* line 3276, scss/modules.scss */
   .nav-links {
     list-style-type: none;
     position: absolute;
@@ -4858,14 +4863,19 @@
     transform: translate(0, -50%);
   }
 
-  /* line 3279, scss/modules.scss */
-  .nav-links li {
-    display: inline-block;
-    margin-left: 1em;
-    margin-right: 1em;
+  /* line 3282, scss/modules.scss */
+  .nav-link {
+    font-size: 12px;
   }
 
-  /* line 3284, scss/modules.scss */
+  /* line 3285, scss/modules.scss */
+  .nav-links li {
+    display: inline-block;
+    margin-left: 0.6em;
+    margin-right: 0.6em;
+  }
+
+  /* line 3290, scss/modules.scss */
   .nav-header {
     font-size: 48px;
     font-family: "Merienda";
@@ -4876,96 +4886,96 @@
     transform: translate(-50%, -50%);
   }
 
-  /* line 3293, scss/modules.scss */
+  /* line 3299, scss/modules.scss */
   .nav-divider {
     border-bottom: 1px solid #eee;
   }
 
   /* TEXT CLASSES */
-  /* line 3298, scss/modules.scss */
+  /* line 3304, scss/modules.scss */
   .text-center {
     text-align: center;
   }
 
-  /* line 3301, scss/modules.scss */
+  /* line 3307, scss/modules.scss */
   .text-left {
     text-align: left;
   }
 
-  /* line 3304, scss/modules.scss */
+  /* line 3310, scss/modules.scss */
   .text-right {
     text-align: right;
   }
 
   /* BUTTONS (MD) */
-  /* line 3309, scss/modules.scss */
+  /* line 3315, scss/modules.scss */
   .lg-btn_xs {
     padding: 0.15em;
     font-size: 24px;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 3314, scss/modules.scss */
+  /* line 3320, scss/modules.scss */
   .lg-btn_xs:hover {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 3317, scss/modules.scss */
+  /* line 3323, scss/modules.scss */
   .lg-btn_sm {
     padding: 0.25em;
     font-size: 24px;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 3322, scss/modules.scss */
+  /* line 3328, scss/modules.scss */
   .lg-btn_sm:hover {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 3325, scss/modules.scss */
+  /* line 3331, scss/modules.scss */
   .lg-btn_md {
     padding: 0.5em;
     font-size: 24px;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 3330, scss/modules.scss */
+  /* line 3336, scss/modules.scss */
   .lg-btn_md:hover {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 3333, scss/modules.scss */
+  /* line 3339, scss/modules.scss */
   .lg-btn_lg {
     padding: 0.75em;
     font-size: 24px;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 3338, scss/modules.scss */
+  /* line 3344, scss/modules.scss */
   .lg-btn_lg:hover {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 3341, scss/modules.scss */
+  /* line 3347, scss/modules.scss */
   .lg-btn_lg {
     padding: 0.75em;
     font-size: 24px;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 3346, scss/modules.scss */
+  /* line 3352, scss/modules.scss */
   .lg-btn_lg:hover {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 3349, scss/modules.scss */
+  /* line 3355, scss/modules.scss */
   .base-btn {
     background-color: #3399ff;
     color: white;
     border: 2px solid white;
   }
 
-  /* line 3354, scss/modules.scss */
+  /* line 3360, scss/modules.scss */
   .base-btn:hover {
     background-color: white;
     color: #3399ff;
@@ -4973,12 +4983,12 @@
   }
 
   /* CUSTOM ANGLES (LG) */
-  /* line 3435, scss/modules.scss */
+  /* line 3441, scss/modules.scss */
   .lg-angled-top-left {
     position: relative;
     z-index: 1;
   }
-  /* line 3367, scss/modules.scss */
+  /* line 3373, scss/modules.scss */
   .lg-angled-top-left:before {
     background: inherit;
     content: '';
@@ -4990,19 +5000,19 @@
     z-index: -1;
     -webkit-backface-visibility: hidden;
   }
-  /* line 3380, scss/modules.scss */
+  /* line 3386, scss/modules.scss */
   .lg-angled-top-left:before {
     top: 0;
     transform: skewY(1.5deg);
     transform-origin: 100% 0;
   }
 
-  /* line 3438, scss/modules.scss */
+  /* line 3444, scss/modules.scss */
   .lg-angled-top-right {
     position: relative;
     z-index: 1;
   }
-  /* line 3367, scss/modules.scss */
+  /* line 3373, scss/modules.scss */
   .lg-angled-top-right:before {
     background: inherit;
     content: '';
@@ -5014,19 +5024,19 @@
     z-index: -1;
     -webkit-backface-visibility: hidden;
   }
-  /* line 3380, scss/modules.scss */
+  /* line 3386, scss/modules.scss */
   .lg-angled-top-right:before {
     top: 0;
     transform: skewY(-1.5deg);
     transform-origin: 0 0;
   }
 
-  /* line 3441, scss/modules.scss */
+  /* line 3447, scss/modules.scss */
   .lg-angled-bottom-right {
     position: relative;
     z-index: 1;
   }
-  /* line 3367, scss/modules.scss */
+  /* line 3373, scss/modules.scss */
   .lg-angled-bottom-right:after {
     background: inherit;
     content: '';
@@ -5038,19 +5048,19 @@
     z-index: -1;
     -webkit-backface-visibility: hidden;
   }
-  /* line 3394, scss/modules.scss */
+  /* line 3400, scss/modules.scss */
   .lg-angled-bottom-right:after {
     bottom: 0;
     transform: skewY(-1.5deg);
     transform-origin: 100%;
   }
 
-  /* line 3444, scss/modules.scss */
+  /* line 3450, scss/modules.scss */
   .lg-angled-bottom-left {
     position: relative;
     z-index: 1;
   }
-  /* line 3367, scss/modules.scss */
+  /* line 3373, scss/modules.scss */
   .lg-angled-bottom-left:after {
     background: inherit;
     content: '';
@@ -5062,7 +5072,7 @@
     z-index: -1;
     -webkit-backface-visibility: hidden;
   }
-  /* line 3394, scss/modules.scss */
+  /* line 3400, scss/modules.scss */
   .lg-angled-bottom-left:after {
     bottom: 0;
     transform: skewY(1.5deg);
@@ -5070,84 +5080,84 @@
   }
 
   /* SHADOW SETTINGS (LG) */
-  /* line 3449, scss/modules.scss */
+  /* line 3455, scss/modules.scss */
   .lg-inset-shadow-bottom_xs {
     box-shadow: inset 0px -5px 30px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 3452, scss/modules.scss */
+  /* line 3458, scss/modules.scss */
   .lg-inset-shadow-bottom_sm {
     box-shadow: inset 0px -15px 40px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 3455, scss/modules.scss */
+  /* line 3461, scss/modules.scss */
   .lg-inset-shadow-bottom_md {
     box-shadow: inset 0px -20px 50px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 3458, scss/modules.scss */
+  /* line 3464, scss/modules.scss */
   .lg-inset-shadow-bottom_lg {
     box-shadow: inset 0px -25px 50px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 3461, scss/modules.scss */
+  /* line 3467, scss/modules.scss */
   .lg-inset-shadow-top_xs {
     box-shadow: inset 0px -5px 30px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 3464, scss/modules.scss */
+  /* line 3470, scss/modules.scss */
   .lg-inset-shadow-top_sm {
     box-shadow: inset 0px 15px 40px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 3467, scss/modules.scss */
+  /* line 3473, scss/modules.scss */
   .lg-inset-shadow-top_md {
     box-shadow: inset 0px 20px 50px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 3470, scss/modules.scss */
+  /* line 3476, scss/modules.scss */
   .lg-inset-shadow-top_lg {
     box-shadow: inset 0px 25px 50px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 3473, scss/modules.scss */
+  /* line 3479, scss/modules.scss */
   .lg-inset-shadow_xs {
     box-shadow: inset 0px 1px 90px -14px rgba(0, 0, 0, 0.75);
   }
 
-  /* line 3476, scss/modules.scss */
+  /* line 3482, scss/modules.scss */
   .lg-inset-shadow_sm {
     box-shadow: inset 0px 2px 100px -14px rgba(0, 0, 0, 0.75);
   }
 
-  /* line 3479, scss/modules.scss */
+  /* line 3485, scss/modules.scss */
   .lg-inset-shadow_md {
     box-shadow: inset 0px 2px 111px -14px rgba(0, 0, 0, 0.75);
   }
 
-  /* line 3482, scss/modules.scss */
+  /* line 3488, scss/modules.scss */
   .lg-inset-shadow_lg {
     box-shadow: inset 0px 2px 187px 11px rgba(0, 0, 0, 0.75);
   }
 
   /* DISPLAY SETTINGS (LG) */
-  /* line 3487, scss/modules.scss */
+  /* line 3493, scss/modules.scss */
   .lg-block {
     display: block;
   }
 
-  /* line 3490, scss/modules.scss */
+  /* line 3496, scss/modules.scss */
   .lg-inline-block {
     display: inline-block;
   }
 
-  /* line 3493, scss/modules.scss */
+  /* line 3499, scss/modules.scss */
   .lg-inline {
     display: inline;
   }
 
   /* ALIGNMENT (LG) */
-  /* line 3498, scss/modules.scss */
+  /* line 3504, scss/modules.scss */
   .lg-vertical-align {
     position: relative;
     top: 50%;
@@ -5155,28 +5165,28 @@
   }
 
   /* ICON SIZES (LG) */
-  /* line 3505, scss/modules.scss */
+  /* line 3511, scss/modules.scss */
   .lg-icon_xs {
     font-size: 24px;
   }
 
-  /* line 3508, scss/modules.scss */
+  /* line 3514, scss/modules.scss */
   .lg-icon_sm {
     font-size: 48px;
   }
 
-  /* line 3511, scss/modules.scss */
+  /* line 3517, scss/modules.scss */
   .lg-icon_md {
     font-size: 56px;
   }
 
-  /* line 3514, scss/modules.scss */
+  /* line 3520, scss/modules.scss */
   .lg-icon_lg {
     font-size: 96px;
   }
 
   /* SPACERS (LG) */
-  /* line 3519, scss/modules.scss */
+  /* line 3525, scss/modules.scss */
   .lg-spacer_xs {
     height: 0;
     color: none;
@@ -5185,7 +5195,7 @@
     height: 1em;
   }
 
-  /* line 3526, scss/modules.scss */
+  /* line 3532, scss/modules.scss */
   .lg-spacer_sm {
     height: 0;
     color: none;
@@ -5194,7 +5204,7 @@
     height: 3em;
   }
 
-  /* line 3533, scss/modules.scss */
+  /* line 3539, scss/modules.scss */
   .lg-spacer_md {
     height: 0;
     color: none;
@@ -5203,7 +5213,7 @@
     height: 7em;
   }
 
-  /* line 3540, scss/modules.scss */
+  /* line 3546, scss/modules.scss */
   .lg-spacer_lg {
     height: 0;
     color: none;
@@ -5213,7 +5223,7 @@
   }
 
   /* DIVIDERS (LG) */
-  /* line 3549, scss/modules.scss */
+  /* line 3555, scss/modules.scss */
   .lg-divider_xs {
     width: 3em;
     margin: auto;
@@ -5221,7 +5231,7 @@
     height: 3px;
   }
 
-  /* line 3555, scss/modules.scss */
+  /* line 3561, scss/modules.scss */
   .lg-divider_sm {
     width: 5em;
     margin: auto;
@@ -5229,7 +5239,7 @@
     height: 3px;
   }
 
-  /* line 3561, scss/modules.scss */
+  /* line 3567, scss/modules.scss */
   .lg-divider_md {
     width: 10em;
     margin: auto;
@@ -5237,7 +5247,7 @@
     height: 3px;
   }
 
-  /* line 3567, scss/modules.scss */
+  /* line 3573, scss/modules.scss */
   .lg-divider_lg {
     width: 20em;
     margin: auto;
@@ -5246,7 +5256,7 @@
   }
 
   /* RULER DIVIDERS (LG) */
-  /* line 3575, scss/modules.scss */
+  /* line 3581, scss/modules.scss */
   .lg-ruler-divider_xs {
     width: 45%;
     margin: auto;
@@ -5254,7 +5264,7 @@
     height: 1px;
   }
 
-  /* line 3581, scss/modules.scss */
+  /* line 3587, scss/modules.scss */
   .lg-ruler-divider_sm {
     width: 65%;
     margin: auto;
@@ -5262,7 +5272,7 @@
     height: 1px;
   }
 
-  /* line 3587, scss/modules.scss */
+  /* line 3593, scss/modules.scss */
   .lg-ruler-divider_md {
     width: 90%;
     margin: auto;
@@ -5270,7 +5280,7 @@
     height: 1px;
   }
 
-  /* line 3593, scss/modules.scss */
+  /* line 3599, scss/modules.scss */
   .lg-ruler-divider_lg {
     width: 100%;
     margin: auto;
@@ -5280,312 +5290,312 @@
   }
 
   /* PADDING (LG) */
-  /* line 3602, scss/modules.scss */
+  /* line 3608, scss/modules.scss */
   .lg-no-padding {
     padding: 0;
   }
 
-  /* line 3605, scss/modules.scss */
+  /* line 3611, scss/modules.scss */
   .lg-padding_xs {
     padding: 0.5em;
   }
 
-  /* line 3608, scss/modules.scss */
+  /* line 3614, scss/modules.scss */
   .lg-padding_sm {
     padding: 1em;
   }
 
-  /* line 3611, scss/modules.scss */
+  /* line 3617, scss/modules.scss */
   .lg-padding_md {
     padding: 3em;
   }
 
-  /* line 3614, scss/modules.scss */
+  /* line 3620, scss/modules.scss */
   .lg-padding_lg {
     padding: 5em;
   }
 
-  /* line 3617, scss/modules.scss */
+  /* line 3623, scss/modules.scss */
   .lg-padding-top_xs {
     padding-top: 0.5em;
   }
 
-  /* line 3620, scss/modules.scss */
+  /* line 3626, scss/modules.scss */
   .lg-padding-top_sm {
     padding-top: 1em;
   }
 
-  /* line 3623, scss/modules.scss */
+  /* line 3629, scss/modules.scss */
   .lg-padding-top_md {
     padding-top: 3em;
   }
 
-  /* line 3626, scss/modules.scss */
+  /* line 3632, scss/modules.scss */
   .lg-padding-top_lg {
     padding-top: 5em;
   }
 
-  /* line 3629, scss/modules.scss */
+  /* line 3635, scss/modules.scss */
   .lg-padding-left_xs {
     padding-left: 0.5em;
   }
 
-  /* line 3632, scss/modules.scss */
+  /* line 3638, scss/modules.scss */
   .lg-padding-left_sm {
     padding-left: 1em;
   }
 
-  /* line 3635, scss/modules.scss */
+  /* line 3641, scss/modules.scss */
   .lg-padding-left_md {
     padding-left: 3em;
   }
 
-  /* line 3638, scss/modules.scss */
+  /* line 3644, scss/modules.scss */
   .lg-padding-left_lg {
     padding-left: 5em;
   }
 
-  /* line 3641, scss/modules.scss */
+  /* line 3647, scss/modules.scss */
   .lg-padding-bottom_xs {
     padding-bottom: 0.5em;
   }
 
-  /* line 3644, scss/modules.scss */
+  /* line 3650, scss/modules.scss */
   .lg-padding-bottom_sm {
     padding-bottom: 1em;
   }
 
-  /* line 3647, scss/modules.scss */
+  /* line 3653, scss/modules.scss */
   .lg-padding-bottom_md {
     padding-bottom: 3em;
   }
 
-  /* line 3650, scss/modules.scss */
+  /* line 3656, scss/modules.scss */
   .lg-padding-bottom_lg {
     padding-bottom: 5em;
   }
 
-  /* line 3653, scss/modules.scss */
+  /* line 3659, scss/modules.scss */
   .lg-padding-right_xs {
     padding-right: 0.5em;
   }
 
-  /* line 3656, scss/modules.scss */
+  /* line 3662, scss/modules.scss */
   .lg-padding-right_sm {
     padding-right: 1em;
   }
 
-  /* line 3659, scss/modules.scss */
+  /* line 3665, scss/modules.scss */
   .lg-padding-right_md {
     padding-right: 3em;
   }
 
-  /* line 3662, scss/modules.scss */
+  /* line 3668, scss/modules.scss */
   .lg-padding-right_lg {
     padding-right: 5em;
   }
 
   /* MARGIN (LG) */
-  /* line 3667, scss/modules.scss */
+  /* line 3673, scss/modules.scss */
   .lg-no-margin {
     margin: 0;
   }
 
-  /* line 3670, scss/modules.scss */
+  /* line 3676, scss/modules.scss */
   .lg-margin-auto {
     margin: auto;
   }
 
-  /* line 3673, scss/modules.scss */
+  /* line 3679, scss/modules.scss */
   .lg-margin_xs {
     margin: 0.5em;
   }
 
-  /* line 3676, scss/modules.scss */
+  /* line 3682, scss/modules.scss */
   .lg-margin_sm {
     margin: 1em;
   }
 
-  /* line 3679, scss/modules.scss */
+  /* line 3685, scss/modules.scss */
   .lg-margin_md {
     margin: 3em;
   }
 
-  /* line 3682, scss/modules.scss */
+  /* line 3688, scss/modules.scss */
   .lg-margin_lg {
     margin: 5em;
   }
 
-  /* line 3685, scss/modules.scss */
+  /* line 3691, scss/modules.scss */
   .lg-margin-top_xs {
     margin-top: 0.5em;
   }
 
-  /* line 3688, scss/modules.scss */
+  /* line 3694, scss/modules.scss */
   .lg-margin-top_sm {
     margin-top: 1em;
   }
 
-  /* line 3691, scss/modules.scss */
+  /* line 3697, scss/modules.scss */
   .lg-margin-top_md {
     margin-top: 3em;
   }
 
-  /* line 3694, scss/modules.scss */
+  /* line 3700, scss/modules.scss */
   .lg-margin-top_lg {
     margin-top: 5em;
   }
 
-  /* line 3697, scss/modules.scss */
+  /* line 3703, scss/modules.scss */
   .lg-margin-left_xs {
     margin-left: 0.5em;
   }
 
-  /* line 3700, scss/modules.scss */
+  /* line 3706, scss/modules.scss */
   .lg-margin-left_sm {
     margin-left: 1em;
   }
 
-  /* line 3703, scss/modules.scss */
+  /* line 3709, scss/modules.scss */
   .lg-margin-left_md {
     margin-left: 3em;
   }
 
-  /* line 3706, scss/modules.scss */
+  /* line 3712, scss/modules.scss */
   .lg-margin-left_lg {
     margin-left: 5em;
   }
 
-  /* line 3709, scss/modules.scss */
+  /* line 3715, scss/modules.scss */
   .lg-margin-bottom_xs {
     margin-bottom: 0.5em;
   }
 
-  /* line 3712, scss/modules.scss */
+  /* line 3718, scss/modules.scss */
   .lg-margin-bottom_sm {
     margin-bottom: 1em;
   }
 
-  /* line 3715, scss/modules.scss */
+  /* line 3721, scss/modules.scss */
   .lg-margin-bottom_md {
     margin-bottom: 3em;
   }
 
-  /* line 3718, scss/modules.scss */
+  /* line 3724, scss/modules.scss */
   .lg-margin-bottom_lg {
     margin-bottom: 5em;
   }
 
-  /* line 3721, scss/modules.scss */
+  /* line 3727, scss/modules.scss */
   .lg-margin-right_xs {
     margin-right: 0.5em;
   }
 
-  /* line 3724, scss/modules.scss */
+  /* line 3730, scss/modules.scss */
   .lg-margin-right_sm {
     margin-right: 1em;
   }
 
-  /* line 3727, scss/modules.scss */
+  /* line 3733, scss/modules.scss */
   .lg-margin-right_md {
     margin-right: 3em;
   }
 
-  /* line 3730, scss/modules.scss */
+  /* line 3736, scss/modules.scss */
   .lg-margin-right_lg {
     margin-right: 5em;
   }
 
   /* BORDER RADIUS (LG) */
-  /* line 3735, scss/modules.scss */
+  /* line 3741, scss/modules.scss */
   .lg-border-radius_xs {
     border-radius: 3px;
   }
 
-  /* line 3738, scss/modules.scss */
+  /* line 3744, scss/modules.scss */
   .lg-border-radius_sm {
     border-radius: 5px;
   }
 
-  /* line 3741, scss/modules.scss */
+  /* line 3747, scss/modules.scss */
   .lg-border-radius_md {
     border-radius: 15px;
   }
 
-  /* line 3744, scss/modules.scss */
+  /* line 3750, scss/modules.scss */
   .lg-border-radius_lg {
     border-radius: 45px;
   }
 
   /* BUTTONS */
-  /* line 3749, scss/modules.scss */
+  /* line 3755, scss/modules.scss */
   .md-btn_xs {
     padding: 0.15em;
     font-size: 24px;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 3754, scss/modules.scss */
+  /* line 3760, scss/modules.scss */
   .md-btn_xs:hover {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 3757, scss/modules.scss */
+  /* line 3763, scss/modules.scss */
   .md-btn_sm {
     padding: 0.25em;
     font-size: 24px;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 3762, scss/modules.scss */
+  /* line 3768, scss/modules.scss */
   .md-btn_sm:hover {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 3765, scss/modules.scss */
+  /* line 3771, scss/modules.scss */
   .md-btn_md {
     padding: 0.5em;
     font-size: 24px;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 3770, scss/modules.scss */
+  /* line 3776, scss/modules.scss */
   .md-btn_md:hover {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 3773, scss/modules.scss */
+  /* line 3779, scss/modules.scss */
   .md-btn_lg {
     padding: 0.75em;
     font-size: 24px;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 3778, scss/modules.scss */
+  /* line 3784, scss/modules.scss */
   .md-btn_lg:hover {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 3781, scss/modules.scss */
+  /* line 3787, scss/modules.scss */
   .md-btn_lg {
     padding: 0.75em;
     font-size: 24px;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 3786, scss/modules.scss */
+  /* line 3792, scss/modules.scss */
   .md-btn_lg:hover {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* line 3789, scss/modules.scss */
+  /* line 3795, scss/modules.scss */
   .base-btn {
     background-color: #3399ff;
     color: white;
     border: 2px solid white;
   }
 
-  /* line 3794, scss/modules.scss */
+  /* line 3800, scss/modules.scss */
   .base-btn:hover {
     background-color: white;
     color: #3399ff;
@@ -5593,12 +5603,12 @@
   }
 
   /* CUSTOM ANGLES */
-  /* line 3875, scss/modules.scss */
+  /* line 3881, scss/modules.scss */
   .md-angled-top-left {
     position: relative;
     z-index: 1;
   }
-  /* line 3807, scss/modules.scss */
+  /* line 3813, scss/modules.scss */
   .md-angled-top-left:before {
     background: inherit;
     content: '';
@@ -5610,19 +5620,19 @@
     z-index: -1;
     -webkit-backface-visibility: hidden;
   }
-  /* line 3820, scss/modules.scss */
+  /* line 3826, scss/modules.scss */
   .md-angled-top-left:before {
     top: 0;
     transform: skewY(1.5deg);
     transform-origin: 100% 0;
   }
 
-  /* line 3878, scss/modules.scss */
+  /* line 3884, scss/modules.scss */
   .md-angled-top-right {
     position: relative;
     z-index: 1;
   }
-  /* line 3807, scss/modules.scss */
+  /* line 3813, scss/modules.scss */
   .md-angled-top-right:before {
     background: inherit;
     content: '';
@@ -5634,19 +5644,19 @@
     z-index: -1;
     -webkit-backface-visibility: hidden;
   }
-  /* line 3820, scss/modules.scss */
+  /* line 3826, scss/modules.scss */
   .md-angled-top-right:before {
     top: 0;
     transform: skewY(-1.5deg);
     transform-origin: 0 0;
   }
 
-  /* line 3881, scss/modules.scss */
+  /* line 3887, scss/modules.scss */
   .md-angled-bottom-right {
     position: relative;
     z-index: 1;
   }
-  /* line 3807, scss/modules.scss */
+  /* line 3813, scss/modules.scss */
   .md-angled-bottom-right:after {
     background: inherit;
     content: '';
@@ -5658,19 +5668,19 @@
     z-index: -1;
     -webkit-backface-visibility: hidden;
   }
-  /* line 3834, scss/modules.scss */
+  /* line 3840, scss/modules.scss */
   .md-angled-bottom-right:after {
     bottom: 0;
     transform: skewY(-1.5deg);
     transform-origin: 100%;
   }
 
-  /* line 3884, scss/modules.scss */
+  /* line 3890, scss/modules.scss */
   .md-angled-bottom-left {
     position: relative;
     z-index: 1;
   }
-  /* line 3807, scss/modules.scss */
+  /* line 3813, scss/modules.scss */
   .md-angled-bottom-left:after {
     background: inherit;
     content: '';
@@ -5682,7 +5692,7 @@
     z-index: -1;
     -webkit-backface-visibility: hidden;
   }
-  /* line 3834, scss/modules.scss */
+  /* line 3840, scss/modules.scss */
   .md-angled-bottom-left:after {
     bottom: 0;
     transform: skewY(1.5deg);
@@ -5690,84 +5700,84 @@
   }
 
   /* SHADOW SETTINGS */
-  /* line 3889, scss/modules.scss */
+  /* line 3895, scss/modules.scss */
   .md-inset-shadow-bottom_xs {
     box-shadow: inset 0px -5px 30px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 3892, scss/modules.scss */
+  /* line 3898, scss/modules.scss */
   .md-inset-shadow-bottom_sm {
     box-shadow: inset 0px -15px 40px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 3895, scss/modules.scss */
+  /* line 3901, scss/modules.scss */
   .md-inset-shadow-bottom_md {
     box-shadow: inset 0px -20px 50px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 3898, scss/modules.scss */
+  /* line 3904, scss/modules.scss */
   .md-inset-shadow-bottom_lg {
     box-shadow: inset 0px -25px 50px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 3901, scss/modules.scss */
+  /* line 3907, scss/modules.scss */
   .md-inset-shadow-top_xs {
     box-shadow: inset 0px -5px 30px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 3904, scss/modules.scss */
+  /* line 3910, scss/modules.scss */
   .md-inset-shadow-top_sm {
     box-shadow: inset 0px 15px 40px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 3907, scss/modules.scss */
+  /* line 3913, scss/modules.scss */
   .md-inset-shadow-top_md {
     box-shadow: inset 0px 20px 50px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 3910, scss/modules.scss */
+  /* line 3916, scss/modules.scss */
   .md-inset-shadow-top_lg {
     box-shadow: inset 0px 25px 50px 0px rgba(50, 50, 50, 0.7);
   }
 
-  /* line 3913, scss/modules.scss */
+  /* line 3919, scss/modules.scss */
   .md-inset-shadow_xs {
     box-shadow: inset 0px 1px 90px -14px rgba(0, 0, 0, 0.75);
   }
 
-  /* line 3916, scss/modules.scss */
+  /* line 3922, scss/modules.scss */
   .md-inset-shadow_sm {
     box-shadow: inset 0px 2px 100px -14px rgba(0, 0, 0, 0.75);
   }
 
-  /* line 3919, scss/modules.scss */
+  /* line 3925, scss/modules.scss */
   .md-inset-shadow_md {
     box-shadow: inset 0px 2px 111px -14px rgba(0, 0, 0, 0.75);
   }
 
-  /* line 3922, scss/modules.scss */
+  /* line 3928, scss/modules.scss */
   .md-inset-shadow_lg {
     box-shadow: inset 0px 2px 187px 11px rgba(0, 0, 0, 0.75);
   }
 
   /* DISPLAY SETTINGS */
-  /* line 3927, scss/modules.scss */
+  /* line 3933, scss/modules.scss */
   .md-block {
     display: block;
   }
 
-  /* line 3930, scss/modules.scss */
+  /* line 3936, scss/modules.scss */
   .md-inline-block {
     display: inline-block;
   }
 
-  /* line 3933, scss/modules.scss */
+  /* line 3939, scss/modules.scss */
   .md-inline {
     display: inline;
   }
 
   /* ALIGNMENT */
-  /* line 3938, scss/modules.scss */
+  /* line 3944, scss/modules.scss */
   .md-vertical-align {
     position: relative;
     top: 50%;
@@ -5775,28 +5785,28 @@
   }
 
   /* ICON SIZES */
-  /* line 3945, scss/modules.scss */
+  /* line 3951, scss/modules.scss */
   .md-icon_xs {
     font-size: 24px;
   }
 
-  /* line 3948, scss/modules.scss */
+  /* line 3954, scss/modules.scss */
   .md-icon_sm {
     font-size: 48px;
   }
 
-  /* line 3951, scss/modules.scss */
+  /* line 3957, scss/modules.scss */
   .md-icon_md {
     font-size: 56px;
   }
 
-  /* line 3954, scss/modules.scss */
+  /* line 3960, scss/modules.scss */
   .md-icon_lg {
     font-size: 96px;
   }
 
   /* SPACERS */
-  /* line 3959, scss/modules.scss */
+  /* line 3965, scss/modules.scss */
   .md-spacer_xs {
     height: 0;
     color: none;
@@ -5805,7 +5815,7 @@
     height: 1em;
   }
 
-  /* line 3966, scss/modules.scss */
+  /* line 3972, scss/modules.scss */
   .md-spacer_sm {
     height: 0;
     color: none;
@@ -5814,7 +5824,7 @@
     height: 3em;
   }
 
-  /* line 3973, scss/modules.scss */
+  /* line 3979, scss/modules.scss */
   .md-spacer_md {
     height: 0;
     color: none;
@@ -5823,7 +5833,7 @@
     height: 7em;
   }
 
-  /* line 3980, scss/modules.scss */
+  /* line 3986, scss/modules.scss */
   .md-spacer_lg {
     height: 0;
     color: none;
@@ -5833,7 +5843,7 @@
   }
 
   /* DIVIDERS */
-  /* line 3989, scss/modules.scss */
+  /* line 3995, scss/modules.scss */
   .md-divider_xs {
     width: 3em;
     margin: auto;
@@ -5841,7 +5851,7 @@
     height: 3px;
   }
 
-  /* line 3995, scss/modules.scss */
+  /* line 4001, scss/modules.scss */
   .md-divider_sm {
     width: 5em;
     margin: auto;
@@ -5849,7 +5859,7 @@
     height: 3px;
   }
 
-  /* line 4001, scss/modules.scss */
+  /* line 4007, scss/modules.scss */
   .md-divider_md {
     width: 10em;
     margin: auto;
@@ -5857,7 +5867,7 @@
     height: 3px;
   }
 
-  /* line 4007, scss/modules.scss */
+  /* line 4013, scss/modules.scss */
   .md-divider_lg {
     width: 20em;
     margin: auto;
@@ -5866,7 +5876,7 @@
   }
 
   /* RULER DIVIDERS */
-  /* line 4015, scss/modules.scss */
+  /* line 4021, scss/modules.scss */
   .md-ruler-divider_xs {
     width: 45%;
     margin: auto;
@@ -5874,7 +5884,7 @@
     height: 1px;
   }
 
-  /* line 4021, scss/modules.scss */
+  /* line 4027, scss/modules.scss */
   .md-ruler-divider_sm {
     width: 65%;
     margin: auto;
@@ -5882,7 +5892,7 @@
     height: 1px;
   }
 
-  /* line 4027, scss/modules.scss */
+  /* line 4033, scss/modules.scss */
   .md-ruler-divider_md {
     width: 90%;
     margin: auto;
@@ -5890,7 +5900,7 @@
     height: 1px;
   }
 
-  /* line 4033, scss/modules.scss */
+  /* line 4039, scss/modules.scss */
   .md-ruler-divider_lg {
     width: 100%;
     margin: auto;
@@ -5900,251 +5910,251 @@
   }
 
   /* PADDING */
-  /* line 4042, scss/modules.scss */
+  /* line 4048, scss/modules.scss */
   .md-no-padding {
     padding: 0;
   }
 
-  /* line 4045, scss/modules.scss */
+  /* line 4051, scss/modules.scss */
   .md-padding_xs {
     padding: 0.5em;
   }
 
-  /* line 4048, scss/modules.scss */
+  /* line 4054, scss/modules.scss */
   .md-padding_sm {
     padding: 1em;
   }
 
-  /* line 4051, scss/modules.scss */
+  /* line 4057, scss/modules.scss */
   .md-padding_md {
     padding: 3em;
   }
 
-  /* line 4054, scss/modules.scss */
+  /* line 4060, scss/modules.scss */
   .md-padding_lg {
     padding: 5em;
   }
 
-  /* line 4057, scss/modules.scss */
+  /* line 4063, scss/modules.scss */
   .md-padding-top_xs {
     padding-top: 0.5em;
   }
 
-  /* line 4060, scss/modules.scss */
+  /* line 4066, scss/modules.scss */
   .md-padding-top_sm {
     padding-top: 1em;
   }
 
-  /* line 4063, scss/modules.scss */
+  /* line 4069, scss/modules.scss */
   .md-padding-top_md {
     padding-top: 3em;
   }
 
-  /* line 4066, scss/modules.scss */
+  /* line 4072, scss/modules.scss */
   .md-padding-top_lg {
     padding-top: 5em;
   }
 
-  /* line 4069, scss/modules.scss */
+  /* line 4075, scss/modules.scss */
   .md-padding-left_xs {
     padding-left: 0.5em;
   }
 
-  /* line 4072, scss/modules.scss */
+  /* line 4078, scss/modules.scss */
   .md-padding-left_sm {
     padding-left: 1em;
   }
 
-  /* line 4075, scss/modules.scss */
+  /* line 4081, scss/modules.scss */
   .md-padding-left_md {
     padding-left: 3em;
   }
 
-  /* line 4078, scss/modules.scss */
+  /* line 4084, scss/modules.scss */
   .md-padding-left_lg {
     padding-left: 5em;
   }
 
-  /* line 4081, scss/modules.scss */
+  /* line 4087, scss/modules.scss */
   .md-padding-bottom_xs {
     padding-bottom: 0.5em;
   }
 
-  /* line 4084, scss/modules.scss */
+  /* line 4090, scss/modules.scss */
   .md-padding-bottom_sm {
     padding-bottom: 1em;
   }
 
-  /* line 4087, scss/modules.scss */
+  /* line 4093, scss/modules.scss */
   .md-padding-bottom_md {
     padding-bottom: 3em;
   }
 
-  /* line 4090, scss/modules.scss */
+  /* line 4096, scss/modules.scss */
   .md-padding-bottom_lg {
     padding-bottom: 5em;
   }
 
-  /* line 4093, scss/modules.scss */
+  /* line 4099, scss/modules.scss */
   .md-padding-right_xs {
     padding-right: 0.5em;
   }
 
-  /* line 4096, scss/modules.scss */
+  /* line 4102, scss/modules.scss */
   .md-padding-right_sm {
     padding-right: 1em;
   }
 
-  /* line 4099, scss/modules.scss */
+  /* line 4105, scss/modules.scss */
   .md-padding-right_md {
     padding-right: 3em;
   }
 
-  /* line 4102, scss/modules.scss */
+  /* line 4108, scss/modules.scss */
   .md-padding-right_lg {
     padding-right: 5em;
   }
 
   /* MARGIN */
-  /* line 4107, scss/modules.scss */
+  /* line 4113, scss/modules.scss */
   .md-no-margin {
     margin: 0;
   }
 
-  /* line 4110, scss/modules.scss */
+  /* line 4116, scss/modules.scss */
   .md-margin-auto {
     margin: auto;
   }
 
-  /* line 4113, scss/modules.scss */
+  /* line 4119, scss/modules.scss */
   .md-margin_xs {
     margin: 0.5em;
   }
 
-  /* line 4116, scss/modules.scss */
+  /* line 4122, scss/modules.scss */
   .md-margin_sm {
     margin: 1em;
   }
 
-  /* line 4119, scss/modules.scss */
+  /* line 4125, scss/modules.scss */
   .md-margin_md {
     margin: 3em;
   }
 
-  /* line 4122, scss/modules.scss */
+  /* line 4128, scss/modules.scss */
   .md-margin_lg {
     margin: 5em;
   }
 
-  /* line 4125, scss/modules.scss */
+  /* line 4131, scss/modules.scss */
   .md-margin-top_xs {
     margin-top: 0.5em;
   }
 
-  /* line 4128, scss/modules.scss */
+  /* line 4134, scss/modules.scss */
   .md-margin-top_sm {
     margin-top: 1em;
   }
 
-  /* line 4131, scss/modules.scss */
+  /* line 4137, scss/modules.scss */
   .md-margin-top_md {
     margin-top: 3em;
   }
 
-  /* line 4134, scss/modules.scss */
+  /* line 4140, scss/modules.scss */
   .md-margin-top_lg {
     margin-top: 5em;
   }
 
-  /* line 4137, scss/modules.scss */
+  /* line 4143, scss/modules.scss */
   .md-margin-left_xs {
     margin-left: 0.5em;
   }
 
-  /* line 4140, scss/modules.scss */
+  /* line 4146, scss/modules.scss */
   .md-margin-left_sm {
     margin-left: 1em;
   }
 
-  /* line 4143, scss/modules.scss */
+  /* line 4149, scss/modules.scss */
   .md-margin-left_md {
     margin-left: 3em;
   }
 
-  /* line 4146, scss/modules.scss */
+  /* line 4152, scss/modules.scss */
   .md-margin-left_lg {
     margin-left: 5em;
   }
 
-  /* line 4149, scss/modules.scss */
+  /* line 4155, scss/modules.scss */
   .md-margin-bottom_xs {
     margin-bottom: 0.5em;
   }
 
-  /* line 4152, scss/modules.scss */
+  /* line 4158, scss/modules.scss */
   .md-margin-bottom_sm {
     margin-bottom: 1em;
   }
 
-  /* line 4155, scss/modules.scss */
+  /* line 4161, scss/modules.scss */
   .md-margin-bottom_md {
     margin-bottom: 3em;
   }
 
-  /* line 4158, scss/modules.scss */
+  /* line 4164, scss/modules.scss */
   .md-margin-bottom_lg {
     margin-bottom: 5em;
   }
 
-  /* line 4161, scss/modules.scss */
+  /* line 4167, scss/modules.scss */
   .md-margin-right_xs {
     margin-right: 0.5em;
   }
 
-  /* line 4164, scss/modules.scss */
+  /* line 4170, scss/modules.scss */
   .md-margin-right_sm {
     margin-right: 1em;
   }
 
-  /* line 4167, scss/modules.scss */
+  /* line 4173, scss/modules.scss */
   .md-margin-right_md {
     margin-right: 3em;
   }
 
-  /* line 4170, scss/modules.scss */
+  /* line 4176, scss/modules.scss */
   .md-margin-right_lg {
     margin-right: 5em;
   }
 
   /* BORDER RADIUS */
-  /* line 4175, scss/modules.scss */
+  /* line 4181, scss/modules.scss */
   .md-border-radius_xs {
     border-radius: 3px;
   }
 
-  /* line 4178, scss/modules.scss */
+  /* line 4184, scss/modules.scss */
   .md-border-radius_sm {
     border-radius: 5px;
   }
 
-  /* line 4181, scss/modules.scss */
+  /* line 4187, scss/modules.scss */
   .md-border-radius_md {
     border-radius: 15px;
   }
 
-  /* line 4184, scss/modules.scss */
+  /* line 4190, scss/modules.scss */
   .md-border-radius_lg {
     border-radius: 45px;
   }
 
   /* COVER SETTINGS */
-  /* line 4189, scss/modules.scss */
+  /* line 4195, scss/modules.scss */
   .cover {
     width: 100%;
     height: 100VH;
   }
 
-  /* line 4193, scss/modules.scss */
+  /* line 4199, scss/modules.scss */
   .cover-image {
     width: 100%;
     height: 100VH;
@@ -6153,13 +6163,13 @@
     background-position: bottom;
   }
 
-  /* line 4200, scss/modules.scss */
+  /* line 4206, scss/modules.scss */
   .cover-small {
     width: 100%;
     height: 50VH;
   }
 
-  /* line 4204, scss/modules.scss */
+  /* line 4210, scss/modules.scss */
   .cover-image-small {
     width: 100%;
     height: 50VH;
@@ -6169,7 +6179,7 @@
   }
 
   /* GRID CONTAINER SETTINGS */
-  /* line 4213, scss/modules.scss */
+  /* line 4219, scss/modules.scss */
   .grid {
     max-width: 1124px;
     display: block;
@@ -6177,7 +6187,7 @@
     width: 85%;
   }
 
-  /* line 4219, scss/modules.scss */
+  /* line 4225, scss/modules.scss */
   .grid-full {
     width: 100%;
     padding: 0;
@@ -6185,7 +6195,7 @@
   }
 
   /* GRID UNIT SETTINGS */
-  /* line 4226, scss/modules.scss */
+  /* line 4232, scss/modules.scss */
   .unit {
     display: inline-block;
     margin-left: 0.85%;
@@ -6194,977 +6204,977 @@
   }
 
   /* LG-16 */
-  /* line 4234, scss/modules.scss */
+  /* line 4240, scss/modules.scss */
   .lg-1-16 {
     width: 4.25%;
   }
 
-  /* line 4237, scss/modules.scss */
+  /* line 4243, scss/modules.scss */
   .lg-2-16 {
     width: 10.5%;
   }
 
-  /* line 4240, scss/modules.scss */
+  /* line 4246, scss/modules.scss */
   .lg-3-16 {
     width: 16.75%;
   }
 
-  /* line 4243, scss/modules.scss */
+  /* line 4249, scss/modules.scss */
   .lg-4-16 {
     width: 23%;
   }
 
-  /* line 4246, scss/modules.scss */
+  /* line 4252, scss/modules.scss */
   .lg-5-16 {
     width: 29.25%;
   }
 
-  /* line 4249, scss/modules.scss */
+  /* line 4255, scss/modules.scss */
   .lg-6-16 {
     width: 35.5%;
   }
 
-  /* line 4252, scss/modules.scss */
+  /* line 4258, scss/modules.scss */
   .lg-7-16 {
     width: 41.75%;
   }
 
-  /* line 4255, scss/modules.scss */
+  /* line 4261, scss/modules.scss */
   .lg-8-16 {
     width: 48%;
   }
 
-  /* line 4258, scss/modules.scss */
+  /* line 4264, scss/modules.scss */
   .lg-9-16 {
     width: 54.25%;
   }
 
-  /* line 4261, scss/modules.scss */
+  /* line 4267, scss/modules.scss */
   .lg-10-16 {
     width: 60.5%;
   }
 
-  /* line 4264, scss/modules.scss */
+  /* line 4270, scss/modules.scss */
   .lg-11-16 {
     width: 66.75%;
   }
 
-  /* line 4267, scss/modules.scss */
+  /* line 4273, scss/modules.scss */
   .lg-12-16 {
     width: 73%;
   }
 
-  /* line 4270, scss/modules.scss */
+  /* line 4276, scss/modules.scss */
   .lg-13-16 {
     width: 79.25%;
   }
 
-  /* line 4273, scss/modules.scss */
+  /* line 4279, scss/modules.scss */
   .lg-14-16 {
     width: 85.5%;
   }
 
-  /* line 4276, scss/modules.scss */
+  /* line 4282, scss/modules.scss */
   .lg-15-16 {
     width: 91.75%;
   }
 
-  /* line 4279, scss/modules.scss */
+  /* line 4285, scss/modules.scss */
   .lg-16-16 {
     width: 98%;
   }
 
-  /* line 4282, scss/modules.scss */
+  /* line 4288, scss/modules.scss */
   .lg-offset-0 {
     margin-left: 0.8%;
   }
 
-  /* line 4285, scss/modules.scss */
+  /* line 4291, scss/modules.scss */
   .lg-offset-1-16 {
     margin-left: 6.25%;
   }
 
-  /* line 4288, scss/modules.scss */
+  /* line 4294, scss/modules.scss */
   .lg-offset-2-16 {
     margin-left: 12.5%;
   }
 
-  /* line 4291, scss/modules.scss */
+  /* line 4297, scss/modules.scss */
   .lg-offset-3-16 {
     margin-left: 18.75%;
   }
 
-  /* line 4294, scss/modules.scss */
+  /* line 4300, scss/modules.scss */
   .lg-offset-4-16 {
     margin-left: 25%;
   }
 
-  /* line 4297, scss/modules.scss */
+  /* line 4303, scss/modules.scss */
   .lg-offset-5-16 {
     margin-left: 31.25%;
   }
 
-  /* line 4300, scss/modules.scss */
+  /* line 4306, scss/modules.scss */
   .lg-offset-6-16 {
     margin-left: 37.5%;
   }
 
-  /* line 4303, scss/modules.scss */
+  /* line 4309, scss/modules.scss */
   .lg-offset-7-16 {
     margin-left: 43.75%;
   }
 
-  /* line 4306, scss/modules.scss */
+  /* line 4312, scss/modules.scss */
   .lg-offset-8-16 {
     margin-left: 50%;
   }
 
-  /* line 4309, scss/modules.scss */
+  /* line 4315, scss/modules.scss */
   .lg-offset-9-16 {
     margin-left: 56.25%;
   }
 
-  /* line 4312, scss/modules.scss */
+  /* line 4318, scss/modules.scss */
   .lg-offset-11-16 {
     margin-left: 68.75%;
   }
 
-  /* line 4315, scss/modules.scss */
+  /* line 4321, scss/modules.scss */
   .lg-offset-12-16 {
     margin-left: 75%;
   }
 
-  /* line 4318, scss/modules.scss */
+  /* line 4324, scss/modules.scss */
   .lg-offset-13-16 {
     margin-left: 81.25%;
   }
 
-  /* line 4321, scss/modules.scss */
+  /* line 4327, scss/modules.scss */
   .lg-offset-14-16 {
     margin-left: 87.5%;
   }
 
-  /* line 4324, scss/modules.scss */
+  /* line 4330, scss/modules.scss */
   .lg-offset-15-16 {
     margin-left: 93.75%;
   }
 
   /* LG-12 */
-  /* line 4328, scss/modules.scss */
+  /* line 4334, scss/modules.scss */
   .lg-1-12 {
     width: 6.3%;
   }
 
-  /* line 4331, scss/modules.scss */
+  /* line 4337, scss/modules.scss */
   .lg-2-12 {
     width: 14.6%;
   }
 
-  /* line 4334, scss/modules.scss */
+  /* line 4340, scss/modules.scss */
   .lg-3-12 {
     width: 23%;
   }
 
-  /* line 4337, scss/modules.scss */
+  /* line 4343, scss/modules.scss */
   .lg-4-12 {
     width: 31.3%;
   }
 
-  /* line 4340, scss/modules.scss */
+  /* line 4346, scss/modules.scss */
   .lg-5-12 {
     width: 39.6%;
   }
 
-  /* line 4343, scss/modules.scss */
+  /* line 4349, scss/modules.scss */
   .lg-6-12 {
     width: 48%;
   }
 
-  /* line 4346, scss/modules.scss */
+  /* line 4352, scss/modules.scss */
   .lg-7-12 {
     width: 56.3%;
   }
 
-  /* line 4349, scss/modules.scss */
+  /* line 4355, scss/modules.scss */
   .lg-8-12 {
     width: 64.6%;
   }
 
-  /* line 4352, scss/modules.scss */
+  /* line 4358, scss/modules.scss */
   .lg-9-12 {
     width: 73%;
   }
 
-  /* line 4355, scss/modules.scss */
+  /* line 4361, scss/modules.scss */
   .lg-10-12 {
     width: 81.3%;
   }
 
-  /* line 4358, scss/modules.scss */
+  /* line 4364, scss/modules.scss */
   .lg-11-12 {
     width: 89.6%;
   }
 
-  /* line 4361, scss/modules.scss */
+  /* line 4367, scss/modules.scss */
   .lg-12-12 {
     width: 98%;
   }
 
-  /* line 4364, scss/modules.scss */
+  /* line 4370, scss/modules.scss */
   .lg-offset-1-12 {
     margin-left: 8.3%;
   }
 
-  /* line 4367, scss/modules.scss */
+  /* line 4373, scss/modules.scss */
   .lg-offset-2-12 {
     margin-left: 16.6%;
   }
 
-  /* line 4370, scss/modules.scss */
+  /* line 4376, scss/modules.scss */
   .lg-offset-3-12 {
     margin-left: 25%;
   }
 
-  /* line 4373, scss/modules.scss */
+  /* line 4379, scss/modules.scss */
   .lg-offset-4-12 {
     margin-left: 33.3%;
   }
 
-  /* line 4376, scss/modules.scss */
+  /* line 4382, scss/modules.scss */
   .lg-offset-5-12 {
     margin-left: 41.6%;
   }
 
-  /* line 4379, scss/modules.scss */
+  /* line 4385, scss/modules.scss */
   .lg-offset-6-12 {
     margin-left: 50%;
   }
 
-  /* line 4382, scss/modules.scss */
+  /* line 4388, scss/modules.scss */
   .lg-offset-7-12 {
     margin-left: 58.3%;
   }
 
-  /* line 4385, scss/modules.scss */
+  /* line 4391, scss/modules.scss */
   .lg-offset-8-12 {
     margin-left: 66.6%;
   }
 
-  /* line 4388, scss/modules.scss */
+  /* line 4394, scss/modules.scss */
   .lg-offset-9-12 {
     margin-left: 75%;
   }
 
-  /* line 4391, scss/modules.scss */
+  /* line 4397, scss/modules.scss */
   .lg-offset-10-12 {
     margin-left: 83.3%;
   }
 
-  /* line 4394, scss/modules.scss */
+  /* line 4400, scss/modules.scss */
   .lg-offset-11-12 {
     margin-left: 91.6%;
   }
 
   /* LG-8 */
-  /* line 4398, scss/modules.scss */
+  /* line 4404, scss/modules.scss */
   .lg-1-8 {
     width: 10.5%;
   }
 
-  /* line 4401, scss/modules.scss */
+  /* line 4407, scss/modules.scss */
   .lg-2-8 {
     width: 23%;
   }
 
-  /* line 4404, scss/modules.scss */
+  /* line 4410, scss/modules.scss */
   .lg-3-8 {
     width: 35.5%;
   }
 
-  /* line 4407, scss/modules.scss */
+  /* line 4413, scss/modules.scss */
   .lg-4-8 {
     width: 48%;
   }
 
-  /* line 4410, scss/modules.scss */
+  /* line 4416, scss/modules.scss */
   .lg-5-8 {
     width: 58.5%;
   }
 
-  /* line 4413, scss/modules.scss */
+  /* line 4419, scss/modules.scss */
   .lg-6-8 {
     width: 73%;
   }
 
-  /* line 4416, scss/modules.scss */
+  /* line 4422, scss/modules.scss */
   .lg-7-8 {
     width: 85.5%;
   }
 
-  /* line 4419, scss/modules.scss */
+  /* line 4425, scss/modules.scss */
   .lg-8-8 {
     width: 98%;
   }
 
-  /* line 4422, scss/modules.scss */
+  /* line 4428, scss/modules.scss */
   .lg-offset-1-8 {
     margin-left: 12.5%;
   }
 
-  /* line 4425, scss/modules.scss */
+  /* line 4431, scss/modules.scss */
   .lg-offset-2-8 {
     margin-left: 25%;
   }
 
-  /* line 4428, scss/modules.scss */
+  /* line 4434, scss/modules.scss */
   .lg-offset-3-8 {
     margin-left: 37.5%;
   }
 
-  /* line 4431, scss/modules.scss */
+  /* line 4437, scss/modules.scss */
   .lg-offset-4-8 {
     margin-left: 50%;
   }
 
-  /* line 4434, scss/modules.scss */
+  /* line 4440, scss/modules.scss */
   .lg-offset-5-8 {
     margin-left: 62.5%;
   }
 
-  /* line 4437, scss/modules.scss */
+  /* line 4443, scss/modules.scss */
   .lg-offset-6-8 {
     margin-left: 75%;
   }
 
-  /* line 4440, scss/modules.scss */
+  /* line 4446, scss/modules.scss */
   .lg-offset-7-8 {
     margin-left: 87.5%;
   }
 
   /* LG-6 */
-  /* line 4444, scss/modules.scss */
+  /* line 4450, scss/modules.scss */
   .lg-1-6 {
     width: 14.6%;
   }
 
-  /* line 4447, scss/modules.scss */
+  /* line 4453, scss/modules.scss */
   .lg-2-6 {
     width: 31.3%;
   }
 
-  /* line 4450, scss/modules.scss */
+  /* line 4456, scss/modules.scss */
   .lg-3-6 {
     width: 48%;
   }
 
-  /* line 4453, scss/modules.scss */
+  /* line 4459, scss/modules.scss */
   .lg-4-6 {
     width: 64.6%;
   }
 
-  /* line 4456, scss/modules.scss */
+  /* line 4462, scss/modules.scss */
   .lg-5-6 {
     width: 81.3%;
   }
 
-  /* line 4459, scss/modules.scss */
+  /* line 4465, scss/modules.scss */
   .lg-6-6 {
     width: 98%;
   }
 
-  /* line 4462, scss/modules.scss */
+  /* line 4468, scss/modules.scss */
   .lg-offset-1-6 {
     margin-left: 16.6%;
   }
 
-  /* line 4465, scss/modules.scss */
+  /* line 4471, scss/modules.scss */
   .lg-offset-2-6 {
     margin-left: 33.3%;
   }
 
-  /* line 4468, scss/modules.scss */
+  /* line 4474, scss/modules.scss */
   .lg-offset-3-6 {
     margin-left: 50%;
   }
 
-  /* line 4471, scss/modules.scss */
+  /* line 4477, scss/modules.scss */
   .lg-offset-4-6 {
     margin-left: 66.6%;
   }
 
-  /* line 4474, scss/modules.scss */
+  /* line 4480, scss/modules.scss */
   .lg-offset-5-6 {
     margin-left: 83.3%;
   }
 
   /* LG-4 */
-  /* line 4478, scss/modules.scss */
+  /* line 4484, scss/modules.scss */
   .lg-1-4 {
     width: 23%;
   }
 
-  /* line 4481, scss/modules.scss */
+  /* line 4487, scss/modules.scss */
   .lg-2-4 {
     width: 48%;
   }
 
-  /* line 4484, scss/modules.scss */
+  /* line 4490, scss/modules.scss */
   .lg-3-4 {
     width: 73%;
   }
 
-  /* line 4487, scss/modules.scss */
+  /* line 4493, scss/modules.scss */
   .lg-4-4 {
     width: 98%;
   }
 
-  /* line 4490, scss/modules.scss */
+  /* line 4496, scss/modules.scss */
   .lg-offset-1-4 {
     margin-left: 25%;
   }
 
-  /* line 4493, scss/modules.scss */
+  /* line 4499, scss/modules.scss */
   .lg-offset-2-4 {
     margin-left: 50%;
   }
 
-  /* line 4496, scss/modules.scss */
+  /* line 4502, scss/modules.scss */
   .lg-offset-3-4 {
     margin-left: 75%;
   }
 
   /* LG-3 */
-  /* line 4500, scss/modules.scss */
+  /* line 4506, scss/modules.scss */
   .lg-1-3 {
     width: 31.3%;
   }
 
-  /* line 4503, scss/modules.scss */
+  /* line 4509, scss/modules.scss */
   .lg-2-3 {
     width: 64.6%;
   }
 
-  /* line 4506, scss/modules.scss */
+  /* line 4512, scss/modules.scss */
   .lg-3-3 {
     width: 98%;
   }
 
-  /* line 4509, scss/modules.scss */
+  /* line 4515, scss/modules.scss */
   .lg-offset-1-3 {
     margin-left: 33.3%;
   }
 
-  /* line 4512, scss/modules.scss */
+  /* line 4518, scss/modules.scss */
   .lg-offset-2-3 {
     margin-left: 66.6%;
   }
 
   /* LG-2 */
-  /* line 4516, scss/modules.scss */
+  /* line 4522, scss/modules.scss */
   .lg-1-2 {
     width: 48%;
   }
 
-  /* line 4519, scss/modules.scss */
+  /* line 4525, scss/modules.scss */
   .lg-2-2 {
     width: 98%;
   }
 
-  /* line 4522, scss/modules.scss */
+  /* line 4528, scss/modules.scss */
   .lg-offset-1-2 {
     margin-left: 50%;
   }
 
   /* LG-1 */
-  /* line 4526, scss/modules.scss */
+  /* line 4532, scss/modules.scss */
   .lg-1 {
     width: 98%;
   }
 
   /* MD-16 */
-  /* line 4531, scss/modules.scss */
+  /* line 4537, scss/modules.scss */
   .md-1-16 {
     width: 4.25%;
   }
 
-  /* line 4534, scss/modules.scss */
+  /* line 4540, scss/modules.scss */
   .md-2-16 {
     width: 10.5%;
   }
 
-  /* line 4537, scss/modules.scss */
+  /* line 4543, scss/modules.scss */
   .md-3-16 {
     width: 16.75%;
   }
 
-  /* line 4540, scss/modules.scss */
+  /* line 4546, scss/modules.scss */
   .md-4-16 {
     width: 23%;
   }
 
-  /* line 4543, scss/modules.scss */
+  /* line 4549, scss/modules.scss */
   .md-5-16 {
     width: 29.25%;
   }
 
-  /* line 4546, scss/modules.scss */
+  /* line 4552, scss/modules.scss */
   .md-6-16 {
     width: 35.5%;
   }
 
-  /* line 4549, scss/modules.scss */
+  /* line 4555, scss/modules.scss */
   .md-7-16 {
     width: 41.75%;
   }
 
-  /* line 4552, scss/modules.scss */
+  /* line 4558, scss/modules.scss */
   .md-8-16 {
     width: 48%;
   }
 
-  /* line 4555, scss/modules.scss */
+  /* line 4561, scss/modules.scss */
   .md-9-16 {
     width: 54.25%;
   }
 
-  /* line 4558, scss/modules.scss */
+  /* line 4564, scss/modules.scss */
   .md-10-16 {
     width: 60.5%;
   }
 
-  /* line 4561, scss/modules.scss */
+  /* line 4567, scss/modules.scss */
   .md-11-16 {
     width: 66.75%;
   }
 
-  /* line 4564, scss/modules.scss */
+  /* line 4570, scss/modules.scss */
   .md-12-16 {
     width: 73%;
   }
 
-  /* line 4567, scss/modules.scss */
+  /* line 4573, scss/modules.scss */
   .md-13-16 {
     width: 79.25%;
   }
 
-  /* line 4570, scss/modules.scss */
+  /* line 4576, scss/modules.scss */
   .md-14-16 {
     width: 85.5%;
   }
 
-  /* line 4573, scss/modules.scss */
+  /* line 4579, scss/modules.scss */
   .md-15-16 {
     width: 91.75%;
   }
 
-  /* line 4576, scss/modules.scss */
+  /* line 4582, scss/modules.scss */
   .md-16-16 {
     width: 98%;
   }
 
-  /* line 4579, scss/modules.scss */
+  /* line 4585, scss/modules.scss */
   .md-offset-0 {
     margin-left: 0.8%;
   }
 
-  /* line 4582, scss/modules.scss */
+  /* line 4588, scss/modules.scss */
   .md-offset-1-16 {
     margin-left: 6.25%;
   }
 
-  /* line 4585, scss/modules.scss */
+  /* line 4591, scss/modules.scss */
   .md-offset-2-16 {
     margin-left: 12.5%;
   }
 
-  /* line 4588, scss/modules.scss */
+  /* line 4594, scss/modules.scss */
   .md-offset-3-16 {
     margin-left: 18.75%;
   }
 
-  /* line 4591, scss/modules.scss */
+  /* line 4597, scss/modules.scss */
   .md-offset-4-16 {
     margin-left: 25%;
   }
 
-  /* line 4594, scss/modules.scss */
+  /* line 4600, scss/modules.scss */
   .md-offset-5-16 {
     margin-left: 31.25%;
   }
 
-  /* line 4597, scss/modules.scss */
+  /* line 4603, scss/modules.scss */
   .md-offset-6-16 {
     margin-left: 37.5%;
   }
 
-  /* line 4600, scss/modules.scss */
+  /* line 4606, scss/modules.scss */
   .md-offset-7-16 {
     margin-left: 43.75%;
   }
 
-  /* line 4603, scss/modules.scss */
+  /* line 4609, scss/modules.scss */
   .md-offset-8-16 {
     margin-left: 50%;
   }
 
-  /* line 4606, scss/modules.scss */
+  /* line 4612, scss/modules.scss */
   .md-offset-9-16 {
     margin-left: 56.25%;
   }
 
-  /* line 4609, scss/modules.scss */
+  /* line 4615, scss/modules.scss */
   .md-offset-11-16 {
     margin-left: 68.75%;
   }
 
-  /* line 4612, scss/modules.scss */
+  /* line 4618, scss/modules.scss */
   .md-offset-12-16 {
     margin-left: 75%;
   }
 
-  /* line 4615, scss/modules.scss */
+  /* line 4621, scss/modules.scss */
   .md-offset-13-16 {
     margin-left: 81.25%;
   }
 
-  /* line 4618, scss/modules.scss */
+  /* line 4624, scss/modules.scss */
   .md-offset-14-16 {
     margin-left: 87.5%;
   }
 
-  /* line 4621, scss/modules.scss */
+  /* line 4627, scss/modules.scss */
   .md-offset-15-16 {
     margin-left: 93.75%;
   }
 
   /* MD-12 */
-  /* line 4625, scss/modules.scss */
+  /* line 4631, scss/modules.scss */
   .md-1-12 {
     width: 6.3%;
   }
 
-  /* line 4628, scss/modules.scss */
+  /* line 4634, scss/modules.scss */
   .md-2-12 {
     width: 14.6%;
   }
 
-  /* line 4631, scss/modules.scss */
+  /* line 4637, scss/modules.scss */
   .md-3-12 {
     width: 23%;
   }
 
-  /* line 4634, scss/modules.scss */
+  /* line 4640, scss/modules.scss */
   .md-4-12 {
     width: 31.3%;
   }
 
-  /* line 4637, scss/modules.scss */
+  /* line 4643, scss/modules.scss */
   .md-5-12 {
     width: 39.6%;
   }
 
-  /* line 4640, scss/modules.scss */
+  /* line 4646, scss/modules.scss */
   .md-6-12 {
     width: 48%;
   }
 
-  /* line 4643, scss/modules.scss */
+  /* line 4649, scss/modules.scss */
   .md-7-12 {
     width: 56.3%;
   }
 
-  /* line 4646, scss/modules.scss */
+  /* line 4652, scss/modules.scss */
   .md-8-12 {
     width: 64.6%;
   }
 
-  /* line 4649, scss/modules.scss */
+  /* line 4655, scss/modules.scss */
   .md-9-12 {
     width: 73%;
   }
 
-  /* line 4652, scss/modules.scss */
+  /* line 4658, scss/modules.scss */
   .md-10-12 {
     width: 81.3%;
   }
 
-  /* line 4655, scss/modules.scss */
+  /* line 4661, scss/modules.scss */
   .md-11-12 {
     width: 89.6%;
   }
 
-  /* line 4658, scss/modules.scss */
+  /* line 4664, scss/modules.scss */
   .md-12-12 {
     width: 98%;
   }
 
-  /* line 4661, scss/modules.scss */
+  /* line 4667, scss/modules.scss */
   .md-offset-1-12 {
     margin-left: 8.3%;
   }
 
-  /* line 4664, scss/modules.scss */
+  /* line 4670, scss/modules.scss */
   .md-offset-2-12 {
     margin-left: 16.6%;
   }
 
-  /* line 4667, scss/modules.scss */
+  /* line 4673, scss/modules.scss */
   .md-offset-3-12 {
     margin-left: 25%;
   }
 
-  /* line 4670, scss/modules.scss */
+  /* line 4676, scss/modules.scss */
   .md-offset-4-12 {
     margin-left: 33.3%;
   }
 
-  /* line 4673, scss/modules.scss */
+  /* line 4679, scss/modules.scss */
   .md-offset-5-12 {
     margin-left: 41.6%;
   }
 
-  /* line 4676, scss/modules.scss */
+  /* line 4682, scss/modules.scss */
   .md-offset-6-12 {
     margin-left: 50%;
   }
 
-  /* line 4679, scss/modules.scss */
+  /* line 4685, scss/modules.scss */
   .md-offset-7-12 {
     margin-left: 58.3%;
   }
 
-  /* line 4682, scss/modules.scss */
+  /* line 4688, scss/modules.scss */
   .md-offset-8-12 {
     margin-left: 66.6%;
   }
 
-  /* line 4685, scss/modules.scss */
+  /* line 4691, scss/modules.scss */
   .md-offset-9-12 {
     margin-left: 75%;
   }
 
-  /* line 4688, scss/modules.scss */
+  /* line 4694, scss/modules.scss */
   .md-offset-10-12 {
     margin-left: 83.3%;
   }
 
-  /* line 4691, scss/modules.scss */
+  /* line 4697, scss/modules.scss */
   .md-offset-11-12 {
     margin-left: 91.6%;
   }
 
   /* MD-8 */
-  /* line 4695, scss/modules.scss */
+  /* line 4701, scss/modules.scss */
   .md-1-8 {
     width: 10.5%;
   }
 
-  /* line 4698, scss/modules.scss */
+  /* line 4704, scss/modules.scss */
   .md-2-8 {
     width: 23%;
   }
 
-  /* line 4701, scss/modules.scss */
+  /* line 4707, scss/modules.scss */
   .md-3-8 {
     width: 35.5%;
   }
 
-  /* line 4704, scss/modules.scss */
+  /* line 4710, scss/modules.scss */
   .md-4-8 {
     width: 48%;
   }
 
-  /* line 4707, scss/modules.scss */
+  /* line 4713, scss/modules.scss */
   .md-5-8 {
     width: 58.5%;
   }
 
-  /* line 4710, scss/modules.scss */
+  /* line 4716, scss/modules.scss */
   .md-6-8 {
     width: 73%;
   }
 
-  /* line 4713, scss/modules.scss */
+  /* line 4719, scss/modules.scss */
   .md-7-8 {
     width: 85.5%;
   }
 
-  /* line 4716, scss/modules.scss */
+  /* line 4722, scss/modules.scss */
   .md-8-8 {
     width: 98%;
   }
 
-  /* line 4719, scss/modules.scss */
+  /* line 4725, scss/modules.scss */
   .md-offset-1-8 {
     margin-left: 12.5%;
   }
 
-  /* line 4722, scss/modules.scss */
+  /* line 4728, scss/modules.scss */
   .md-offset-2-8 {
     margin-left: 25%;
   }
 
-  /* line 4725, scss/modules.scss */
+  /* line 4731, scss/modules.scss */
   .md-offset-3-8 {
     margin-left: 37.5%;
   }
 
-  /* line 4728, scss/modules.scss */
+  /* line 4734, scss/modules.scss */
   .md-offset-4-8 {
     margin-left: 50%;
   }
 
-  /* line 4731, scss/modules.scss */
+  /* line 4737, scss/modules.scss */
   .md-offset-5-8 {
     margin-left: 62.5%;
   }
 
-  /* line 4734, scss/modules.scss */
+  /* line 4740, scss/modules.scss */
   .md-offset-6-8 {
     margin-left: 75%;
   }
 
-  /* line 4737, scss/modules.scss */
+  /* line 4743, scss/modules.scss */
   .md-offset-7-8 {
     margin-left: 87.5%;
   }
 
   /* MD-6 */
-  /* line 4741, scss/modules.scss */
+  /* line 4747, scss/modules.scss */
   .md-1-6 {
     width: 14.6%;
   }
 
-  /* line 4744, scss/modules.scss */
+  /* line 4750, scss/modules.scss */
   .md-2-6 {
     width: 31.3%;
   }
 
-  /* line 4747, scss/modules.scss */
+  /* line 4753, scss/modules.scss */
   .md-3-6 {
     width: 48%;
   }
 
-  /* line 4750, scss/modules.scss */
+  /* line 4756, scss/modules.scss */
   .md-4-6 {
     width: 64.6%;
   }
 
-  /* line 4753, scss/modules.scss */
+  /* line 4759, scss/modules.scss */
   .md-5-6 {
     width: 81.3%;
   }
 
-  /* line 4756, scss/modules.scss */
+  /* line 4762, scss/modules.scss */
   .md-6-6 {
     width: 98%;
   }
 
-  /* line 4759, scss/modules.scss */
+  /* line 4765, scss/modules.scss */
   .md-offset-1-6 {
     margin-left: 16.6%;
   }
 
-  /* line 4762, scss/modules.scss */
+  /* line 4768, scss/modules.scss */
   .md-offset-2-6 {
     margin-left: 33.3%;
   }
 
-  /* line 4765, scss/modules.scss */
+  /* line 4771, scss/modules.scss */
   .md-offset-3-6 {
     margin-left: 50%;
   }
 
-  /* line 4768, scss/modules.scss */
+  /* line 4774, scss/modules.scss */
   .md-offset-4-6 {
     margin-left: 66.6%;
   }
 
-  /* line 4771, scss/modules.scss */
+  /* line 4777, scss/modules.scss */
   .md-offset-5-6 {
     margin-left: 83.3%;
   }
 
   /* MD-4 */
-  /* line 4775, scss/modules.scss */
+  /* line 4781, scss/modules.scss */
   .md-1-4 {
     width: 23%;
   }
 
-  /* line 4778, scss/modules.scss */
+  /* line 4784, scss/modules.scss */
   .md-2-4 {
     width: 48%;
   }
 
-  /* line 4781, scss/modules.scss */
+  /* line 4787, scss/modules.scss */
   .md-3-4 {
     width: 73%;
   }
 
-  /* line 4784, scss/modules.scss */
+  /* line 4790, scss/modules.scss */
   .md-4-4 {
     width: 98%;
   }
 
-  /* line 4787, scss/modules.scss */
+  /* line 4793, scss/modules.scss */
   .md-offset-1-4 {
     margin-left: 25%;
   }
 
-  /* line 4790, scss/modules.scss */
+  /* line 4796, scss/modules.scss */
   .md-offset-2-4 {
     margin-left: 50%;
   }
 
-  /* line 4793, scss/modules.scss */
+  /* line 4799, scss/modules.scss */
   .md-offset-3-4 {
     margin-left: 75%;
   }
 
   /* MD-3 */
-  /* line 4797, scss/modules.scss */
+  /* line 4803, scss/modules.scss */
   .md-1-3 {
     width: 31.3%;
   }
 
-  /* line 4800, scss/modules.scss */
+  /* line 4806, scss/modules.scss */
   .md-2-3 {
     width: 64.6%;
   }
 
-  /* line 4803, scss/modules.scss */
+  /* line 4809, scss/modules.scss */
   .md-3-3 {
     width: 98%;
   }
 
-  /* line 4806, scss/modules.scss */
+  /* line 4812, scss/modules.scss */
   .md-offset-1-3 {
     margin-left: 33.3%;
   }
 
-  /* line 4809, scss/modules.scss */
+  /* line 4815, scss/modules.scss */
   .md-offset-2-3 {
     margin-left: 66.6%;
   }
 
   /* MD-2 */
-  /* line 4813, scss/modules.scss */
+  /* line 4819, scss/modules.scss */
   .md-1-2 {
     width: 48%;
   }
 
-  /* line 4816, scss/modules.scss */
+  /* line 4822, scss/modules.scss */
   .md-2-2 {
     width: 98%;
   }
 
-  /* line 4819, scss/modules.scss */
+  /* line 4825, scss/modules.scss */
   .md-offset-1-2 {
     margin-left: 50%;
   }
 
   /* MD-1 */
-  /* line 4823, scss/modules.scss */
+  /* line 4829, scss/modules.scss */
   .md-1 {
     width: 98%;
   }
