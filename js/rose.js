@@ -33,4 +33,19 @@ $("document").ready(function() {
     }
   });
 
+  /* SET MOBILE NAVIGATION */
+  if ($(window).width() < 990) {
+    var offset = $("nav").height();
+    $(".nav-links").css("top", offset);
+    $(".nav-links").hide();
+    $(".nav-links").addClass("xs-padding-top_lg");
+    $(".nav-links").addClass("sm-no-padding");
+    $(".nav-links").children().show();
+    $("#mobile-navigation").click(function() {
+      $(".nav-links").toggle(300);
+    });
+  }
+
+
+
 });

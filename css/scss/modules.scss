@@ -986,6 +986,32 @@
     width: 25%;
   }
 
+  /* SCREEN ONLY */
+  .xs-only {
+    display: none;
+  }
+  .sm-only {
+    display: none;
+  }
+  .md-only {
+    display: none;
+  }
+  .lg-only {
+    display: block;
+  }
+  .not-xs {
+    display: block;
+  }
+  .not-sm {
+    display: block;
+  }
+  .not-md {
+    display: block;
+  }
+  .not-lg {
+    display: none;
+  }
+
   /* COVER SETTINGS */
   .cover {
     width: 100%;
@@ -2629,6 +2655,32 @@
   }
   .lg-width-25 {
     width: 25%;
+  }
+
+  /* SCREEN ONLY */
+  .xs-only {
+    display: none;
+  }
+  .sm-only {
+    display: none;
+  }
+  .md-only {
+    display: none;
+  }
+  .lg-only {
+    display: block;
+  }
+  .not-xs {
+    display: block;
+  }
+  .not-sm {
+    display: block;
+  }
+  .not-md {
+    display: block;
+  }
+  .not-lg {
+    display: none;
   }
 
   /* COVER SETTINGS */
@@ -4275,6 +4327,32 @@
     width: 25%;
   }
 
+  /* SCREEN ONLY */
+  .xs-only {
+    display: none;
+  }
+  .sm-only {
+    display: none;
+  }
+  .md-only {
+    display: block;
+  }
+  .lg-only {
+    display: none;
+  }
+  .not-xs {
+    display: block;
+  }
+  .not-sm {
+    display: block;
+  }
+  .not-md {
+    display: none;
+  }
+  .not-lg {
+    display: block;
+  }
+
   /* COVER SETTINGS */
   .cover {
     width: 100%;
@@ -4924,16 +5002,6 @@
 @media screen and (max-width: 990px) and (min-width: 481px) {
 
   /* NAVIGATION BAR, NAVIGATION LAYOUT */
-  .navbar-initial {
-    height: 7em;
-    padding: 1em;
-    background-color: $accent;
-    transition: height 0.5s ease, padding 0.5s ease, background-color 0.5s ease;
-    a {
-      color: $base;
-      transition: color 0.5s ease;
-    }
-  }
   nav {
     height: 5em;
     width: 100%;
@@ -4982,6 +5050,7 @@
   }
   .nav-link {
     font-size: 12px;
+    color: $accent;
   }
   .nav-links li {
     text-align: center;
@@ -5936,6 +6005,32 @@
     width: 25%;
   }
 
+  /* SCREEN ONLY */
+  .xs-only {
+    display: none;
+  }
+  .sm-only {
+    display: block;
+  }
+  .md-only {
+    display: none;
+  }
+  .lg-only {
+    display: none;
+  }
+  .not-xs {
+    display: block;
+  }
+  .not-sm {
+    display: none;
+  }
+  .not-md {
+    display: block;
+  }
+  .not-lg {
+    display: block;
+  }
+
   /* COVER SETTINGS */
   .cover {
     width: 100%;
@@ -6585,16 +6680,6 @@
 @media screen and (max-width: 480px) {
 
   /* NAVIGATION BAR, NAVIGATION LAYOUT */
-  .navbar-initial {
-    height: 5em;
-    padding: 0.5em;
-    background-color: $accent;
-    transition: height 0.5s ease, padding 0.5s ease, background-color 0.5s ease;
-    a {
-      color: $base;
-      transition: color 0.5s ease;
-    }
-  }
   nav {
     height: 3em;
     width: 100%;
@@ -6635,10 +6720,11 @@
   }
   .nav-links {
     list-style-type: none;
-    width: 33VW;
-    position: absolute;
+    width: 100VW;
+    height: 100VH;
+    position: fixed;
     top: 0;
-    right: 0;
+    left: 0;
     background-color: $accent;
   }
   .nav-link {
@@ -7640,6 +7726,32 @@
     margin-left: 0.5%;
     margin-right: 0.5%;
     vertical-align: top;
+  }
+
+  /* SCREEN ONLY */
+  .xs-only {
+    display: block;
+  }
+  .sm-only {
+    display: none;
+  }
+  .md-only {
+    display: none;
+  }
+  .lg-only {
+    display: none;
+  }
+  .not-xs {
+    display: none;
+  }
+  .not-sm {
+    display: block;
+  }
+  .not-md {
+    display: block;
+  }
+  .not-lg {
+    display: block;
   }
 
   /* SM-16 */
