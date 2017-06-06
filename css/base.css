@@ -383,22 +383,22 @@ a:hover {
 
   /* line 272, scss/base.scss */
   h4 {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   /* line 275, scss/base.scss */
   h5 {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   /* line 278, scss/base.scss */
   h6 {
-    font-size: 8px;
+    font-size: 10px;
   }
 
   /* line 281, scss/base.scss */
   p, a {
-    font-size: 10px;
+    font-size: 14px;
   }
 
   /* line 284, scss/base.scss */
