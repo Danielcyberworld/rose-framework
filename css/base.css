@@ -135,300 +135,840 @@ a:hover {
     font-size: 14px;
     text-align: center;
   }
+
+  /* line 81, scss/base.scss */
+  dialog {
+    border: 3px solid #3399ff;
+    box-shadow: 10px 10px 15px #222;
+  }
+
+  /* line 85, scss/base.scss */
+  details {
+    font-weight: 200;
+    font-style: italic;
+  }
+
+  /* line 89, scss/base.scss */
+  code {
+    background-color: #1d1f20;
+    font-family: monospace;
+  }
+
+  /* line 93, scss/base.scss */
+  cite {
+    font-style: italic;
+  }
+
+  /* line 96, scss/base.scss */
+  caption {
+    font-size: 12px;
+  }
+
+  /* line 99, scss/base.scss */
+  canvas {
+    width: 100%;
+  }
+
+  /* line 102, scss/base.scss */
+  br {
+    padding: 0.5em;
+  }
+
+  /* line 105, scss/base.scss */
+  blockquote {
+    border-left: 5px solid #ddd;
+    padding: 0.5em;
+    font-style: italic;
+  }
+
+  /* line 110, scss/base.scss */
+  audio {
+    display: inline;
+  }
+
+  /* line 113, scss/base.scss */
+  em {
+    font-style: italic;
+  }
+
+  /* line 116, scss/base.scss */
+  embed {
+    width: 100%;
+  }
+
+  /* line 119, scss/base.scss */
+  fieldset {
+    font-size: 10px;
+  }
+
+  /* line 122, scss/base.scss */
+  footer {
+    width: 100%;
+  }
+
+  /* line 125, scss/base.scss */
+  form {
+    width: 100%;
+  }
+
+  /* line 128, scss/base.scss */
+  label {
+    font-size: 12px;
+    font-style: italic;
+  }
+
+  /* line 132, scss/base.scss */
+  legend {
+    font-size: 16px;
+  }
+
+  /* line 135, scss/base.scss */
+  span {
+    display: inline;
+  }
+
+  /* line 138, scss/base.scss */
+  strong {
+    font-weight: 600;
+  }
+
+  /* line 141, scss/base.scss */
+  textarea {
+    padding: 0;
+  }
+
+  /* line 144, scss/base.scss */
+  video {
+    object-fit: cover;
+    min-height: 100%;
+    width: 100%;
+  }
 }
 /* DESKTOP */
 @media screen and (max-width: 1824px) and (min-width: 1225px) {
   /* SET FONT SIZES */
-  /* line 92, scss/base.scss */
+  /* line 160, scss/base.scss */
   header {
     font-size: 144px;
   }
 
-  /* line 95, scss/base.scss */
+  /* line 163, scss/base.scss */
   h1 {
     font-size: 48px;
   }
 
-  /* line 98, scss/base.scss */
+  /* line 166, scss/base.scss */
   h2 {
     font-size: 30px;
   }
 
-  /* line 101, scss/base.scss */
+  /* line 169, scss/base.scss */
   h3 {
     font-size: 24px;
   }
 
-  /* line 104, scss/base.scss */
+  /* line 172, scss/base.scss */
   h4 {
     font-size: 20px;
   }
 
-  /* line 107, scss/base.scss */
+  /* line 175, scss/base.scss */
   h5 {
     font-size: 18px;
   }
 
-  /* line 110, scss/base.scss */
+  /* line 178, scss/base.scss */
   h6 {
     font-size: 16px;
   }
 
-  /* line 113, scss/base.scss */
+  /* line 181, scss/base.scss */
   p, a {
     font-size: 18px;
   }
 
-  /* line 116, scss/base.scss */
+  /* line 184, scss/base.scss */
   blockquote, figcaption {
     font-size: 18px;
     font-style: italic;
   }
 
-  /* line 120, scss/base.scss */
+  /* line 188, scss/base.scss */
   table {
     width: 100%;
     overflow: scroll;
   }
 
-  /* line 124, scss/base.scss */
+  /* line 192, scss/base.scss */
   thead th {
     font-size: 20px;
     border-bottom: 1px solid #aaaaaa;
     padding: 0.25em;
   }
 
-  /* line 129, scss/base.scss */
+  /* line 197, scss/base.scss */
   tbody tr:nth-of-type(even) {
     background-color: #efefef;
   }
 
-  /* line 132, scss/base.scss */
+  /* line 200, scss/base.scss */
   td {
     padding: 0.5em;
     font-size: 14px;
     text-align: center;
+  }
+
+  /* line 205, scss/base.scss */
+  dialog {
+    border: 3px solid #3399ff;
+    box-shadow: 10px 10px 15px #222;
+  }
+
+  /* line 209, scss/base.scss */
+  details {
+    font-weight: 200;
+    font-style: italic;
+  }
+
+  /* line 213, scss/base.scss */
+  code {
+    background-color: #1d1f20;
+    font-family: monospace;
+  }
+
+  /* line 217, scss/base.scss */
+  cite {
+    font-style: italic;
+  }
+
+  /* line 220, scss/base.scss */
+  caption {
+    font-size: 12px;
+  }
+
+  /* line 223, scss/base.scss */
+  canvas {
+    width: 100%;
+  }
+
+  /* line 226, scss/base.scss */
+  br {
+    padding: 0.5em;
+  }
+
+  /* line 229, scss/base.scss */
+  blockquote {
+    border-left: 5px solid #ddd;
+    padding: 0.5em;
+    font-style: italic;
+  }
+
+  /* line 234, scss/base.scss */
+  audio {
+    display: inline;
+  }
+
+  /* line 237, scss/base.scss */
+  em {
+    font-style: italic;
+  }
+
+  /* line 240, scss/base.scss */
+  embed {
+    width: 100%;
+  }
+
+  /* line 243, scss/base.scss */
+  fieldset {
+    font-size: 10px;
+  }
+
+  /* line 246, scss/base.scss */
+  footer {
+    width: 100%;
+  }
+
+  /* line 249, scss/base.scss */
+  form {
+    width: 100%;
+  }
+
+  /* line 252, scss/base.scss */
+  label {
+    font-size: 12px;
+    font-style: italic;
+  }
+
+  /* line 256, scss/base.scss */
+  legend {
+    font-size: 16px;
+  }
+
+  /* line 259, scss/base.scss */
+  span {
+    display: inline;
+  }
+
+  /* line 262, scss/base.scss */
+  strong {
+    font-weight: 600;
+  }
+
+  /* line 265, scss/base.scss */
+  textarea {
+    padding: 0;
+  }
+
+  /* line 268, scss/base.scss */
+  video {
+    object-fit: cover;
+    min-height: 100%;
+    width: 100%;
   }
 }
 /* LAPTOP */
 @media screen and (max-width: 1224px) and (min-width: 991px) {
   /* SET FONT SIZES */
-  /* line 148, scss/base.scss */
+  /* line 284, scss/base.scss */
   header {
     font-size: 144px;
   }
 
-  /* line 151, scss/base.scss */
+  /* line 287, scss/base.scss */
   h1 {
     font-size: 48px;
   }
 
-  /* line 154, scss/base.scss */
+  /* line 290, scss/base.scss */
   h2 {
     font-size: 30px;
   }
 
-  /* line 157, scss/base.scss */
+  /* line 293, scss/base.scss */
   h3 {
     font-size: 24px;
   }
 
-  /* line 160, scss/base.scss */
+  /* line 296, scss/base.scss */
   h4 {
     font-size: 20px;
   }
 
-  /* line 163, scss/base.scss */
+  /* line 299, scss/base.scss */
   h5 {
     font-size: 18px;
   }
 
-  /* line 166, scss/base.scss */
+  /* line 302, scss/base.scss */
   h6 {
     font-size: 16px;
   }
 
-  /* line 169, scss/base.scss */
+  /* line 305, scss/base.scss */
   p, a {
     font-size: 18px;
   }
 
-  /* line 172, scss/base.scss */
+  /* line 308, scss/base.scss */
   blockquote, figcaption {
     font-size: 18px;
     font-style: italic;
   }
 
-  /* line 176, scss/base.scss */
+  /* line 312, scss/base.scss */
   table {
     width: 100%;
     overflow: scroll;
   }
 
-  /* line 180, scss/base.scss */
+  /* line 316, scss/base.scss */
   thead th {
     font-size: 20px;
     border-bottom: 1px solid #aaaaaa;
     padding: 0.25em;
   }
 
-  /* line 185, scss/base.scss */
+  /* line 321, scss/base.scss */
   tbody tr:nth-of-type(even) {
     background-color: #efefef;
   }
 
-  /* line 188, scss/base.scss */
+  /* line 324, scss/base.scss */
   td {
     padding: 0.5em;
     font-size: 14px;
     text-align: center;
+  }
+
+  /* line 329, scss/base.scss */
+  dialog {
+    border: 3px solid #3399ff;
+    box-shadow: 10px 10px 15px #222;
+  }
+
+  /* line 333, scss/base.scss */
+  details {
+    font-weight: 200;
+    font-style: italic;
+  }
+
+  /* line 337, scss/base.scss */
+  code {
+    background-color: #1d1f20;
+    font-family: monospace;
+  }
+
+  /* line 341, scss/base.scss */
+  cite {
+    font-style: italic;
+  }
+
+  /* line 344, scss/base.scss */
+  caption {
+    font-size: 12px;
+  }
+
+  /* line 347, scss/base.scss */
+  canvas {
+    width: 100%;
+  }
+
+  /* line 350, scss/base.scss */
+  br {
+    padding: 0.5em;
+  }
+
+  /* line 353, scss/base.scss */
+  blockquote {
+    border-left: 5px solid #ddd;
+    padding: 0.5em;
+    font-style: italic;
+  }
+
+  /* line 358, scss/base.scss */
+  audio {
+    display: inline;
+  }
+
+  /* line 361, scss/base.scss */
+  em {
+    font-style: italic;
+  }
+
+  /* line 364, scss/base.scss */
+  embed {
+    width: 100%;
+  }
+
+  /* line 367, scss/base.scss */
+  fieldset {
+    font-size: 10px;
+  }
+
+  /* line 370, scss/base.scss */
+  footer {
+    width: 100%;
+  }
+
+  /* line 373, scss/base.scss */
+  form {
+    width: 100%;
+  }
+
+  /* line 376, scss/base.scss */
+  label {
+    font-size: 12px;
+    font-style: italic;
+  }
+
+  /* line 380, scss/base.scss */
+  legend {
+    font-size: 16px;
+  }
+
+  /* line 383, scss/base.scss */
+  span {
+    display: inline;
+  }
+
+  /* line 386, scss/base.scss */
+  strong {
+    font-weight: 600;
+  }
+
+  /* line 389, scss/base.scss */
+  textarea {
+    padding: 0;
+  }
+
+  /* line 392, scss/base.scss */
+  video {
+    object-fit: cover;
+    min-height: 100%;
+    width: 100%;
   }
 }
 /* TABLET */
 @media screen and (max-width: 990px) and (min-width: 481px) {
   /* SET FONT SIZES */
-  /* line 204, scss/base.scss */
+  /* line 408, scss/base.scss */
   header {
     font-size: 144px;
   }
 
-  /* line 207, scss/base.scss */
+  /* line 411, scss/base.scss */
   h1 {
     font-size: 48px;
   }
 
-  /* line 210, scss/base.scss */
+  /* line 414, scss/base.scss */
   h2 {
     font-size: 30px;
   }
 
-  /* line 213, scss/base.scss */
+  /* line 417, scss/base.scss */
   h3 {
     font-size: 24px;
   }
 
-  /* line 216, scss/base.scss */
+  /* line 420, scss/base.scss */
   h4 {
     font-size: 20px;
   }
 
-  /* line 219, scss/base.scss */
+  /* line 423, scss/base.scss */
   h5 {
     font-size: 18px;
   }
 
-  /* line 222, scss/base.scss */
+  /* line 426, scss/base.scss */
   h6 {
     font-size: 16px;
   }
 
-  /* line 225, scss/base.scss */
+  /* line 429, scss/base.scss */
   p, a {
     font-size: 18px;
   }
 
-  /* line 228, scss/base.scss */
+  /* line 432, scss/base.scss */
   blockquote, figcaption {
     font-size: 18px;
     font-style: italic;
   }
 
-  /* line 232, scss/base.scss */
+  /* line 436, scss/base.scss */
   table {
     width: 100%;
     overflow: scroll;
   }
 
-  /* line 236, scss/base.scss */
+  /* line 440, scss/base.scss */
   thead th {
     font-size: 20px;
     border-bottom: 1px solid #aaaaaa;
     padding: 0.25em;
   }
 
-  /* line 241, scss/base.scss */
+  /* line 445, scss/base.scss */
   tbody tr:nth-of-type(even) {
     background-color: #efefef;
   }
 
-  /* line 244, scss/base.scss */
+  /* line 448, scss/base.scss */
   td {
     padding: 0.5em;
     font-size: 14px;
     text-align: center;
+  }
+
+  /* line 453, scss/base.scss */
+  dialog {
+    border: 3px solid #3399ff;
+    box-shadow: 10px 10px 15px #222;
+  }
+
+  /* line 457, scss/base.scss */
+  details {
+    font-weight: 200;
+    font-style: italic;
+  }
+
+  /* line 461, scss/base.scss */
+  code {
+    background-color: #1d1f20;
+    font-family: monospace;
+  }
+
+  /* line 465, scss/base.scss */
+  cite {
+    font-style: italic;
+  }
+
+  /* line 468, scss/base.scss */
+  caption {
+    font-size: 12px;
+  }
+
+  /* line 471, scss/base.scss */
+  canvas {
+    width: 100%;
+  }
+
+  /* line 474, scss/base.scss */
+  br {
+    padding: 0.5em;
+  }
+
+  /* line 477, scss/base.scss */
+  blockquote {
+    border-left: 5px solid #ddd;
+    padding: 0.5em;
+    font-style: italic;
+  }
+
+  /* line 482, scss/base.scss */
+  audio {
+    display: inline;
+  }
+
+  /* line 485, scss/base.scss */
+  em {
+    font-style: italic;
+  }
+
+  /* line 488, scss/base.scss */
+  embed {
+    width: 100%;
+  }
+
+  /* line 491, scss/base.scss */
+  fieldset {
+    font-size: 10px;
+  }
+
+  /* line 494, scss/base.scss */
+  footer {
+    width: 100%;
+  }
+
+  /* line 497, scss/base.scss */
+  form {
+    width: 100%;
+  }
+
+  /* line 500, scss/base.scss */
+  label {
+    font-size: 12px;
+    font-style: italic;
+  }
+
+  /* line 504, scss/base.scss */
+  legend {
+    font-size: 16px;
+  }
+
+  /* line 507, scss/base.scss */
+  span {
+    display: inline;
+  }
+
+  /* line 510, scss/base.scss */
+  strong {
+    font-weight: 600;
+  }
+
+  /* line 513, scss/base.scss */
+  textarea {
+    padding: 0;
+  }
+
+  /* line 516, scss/base.scss */
+  video {
+    object-fit: cover;
+    min-height: 100%;
+    width: 100%;
   }
 }
 /* MOBILE */
 @media screen and (max-width: 480px) {
   /* SET FONT SIZES */
-  /* line 260, scss/base.scss */
+  /* line 532, scss/base.scss */
   header {
     font-size: 80px;
   }
 
-  /* line 263, scss/base.scss */
+  /* line 535, scss/base.scss */
   h1 {
     font-size: 40px;
   }
 
-  /* line 266, scss/base.scss */
+  /* line 538, scss/base.scss */
   h2 {
     font-size: 32px;
   }
 
-  /* line 269, scss/base.scss */
+  /* line 541, scss/base.scss */
   h3 {
     font-size: 16px;
   }
 
-  /* line 272, scss/base.scss */
+  /* line 544, scss/base.scss */
   h4 {
     font-size: 14px;
   }
 
-  /* line 275, scss/base.scss */
+  /* line 547, scss/base.scss */
   h5 {
     font-size: 12px;
   }
 
-  /* line 278, scss/base.scss */
+  /* line 550, scss/base.scss */
   h6 {
     font-size: 10px;
   }
 
-  /* line 281, scss/base.scss */
+  /* line 553, scss/base.scss */
   p, a {
     font-size: 14px;
   }
 
-  /* line 284, scss/base.scss */
+  /* line 556, scss/base.scss */
   blockquote, figcaption {
     font-size: 10px;
     font-style: italic;
   }
 
-  /* line 288, scss/base.scss */
+  /* line 560, scss/base.scss */
   table {
     width: 100%;
     overflow: scroll;
   }
 
-  /* line 292, scss/base.scss */
+  /* line 564, scss/base.scss */
   thead th {
     font-size: 20px;
     border-bottom: 1px solid #aaaaaa;
     padding: 0.25em;
   }
 
-  /* line 297, scss/base.scss */
+  /* line 569, scss/base.scss */
   tbody tr:nth-of-type(even) {
     background-color: #efefef;
   }
 
-  /* line 300, scss/base.scss */
+  /* line 572, scss/base.scss */
   td {
     padding: 0.5em;
     font-size: 14px;
     text-align: center;
+  }
+
+  /* line 577, scss/base.scss */
+  dialog {
+    border: 3px solid #3399ff;
+    box-shadow: 10px 10px 15px #222;
+  }
+
+  /* line 581, scss/base.scss */
+  details {
+    font-weight: 200;
+    font-style: italic;
+  }
+
+  /* line 585, scss/base.scss */
+  code {
+    background-color: #1d1f20;
+    font-family: monospace;
+  }
+
+  /* line 589, scss/base.scss */
+  cite {
+    font-style: italic;
+  }
+
+  /* line 592, scss/base.scss */
+  caption {
+    font-size: 12px;
+  }
+
+  /* line 595, scss/base.scss */
+  canvas {
+    width: 100%;
+  }
+
+  /* line 598, scss/base.scss */
+  br {
+    padding: 0.5em;
+  }
+
+  /* line 601, scss/base.scss */
+  blockquote {
+    border-left: 5px solid #ddd;
+    padding: 0.5em;
+    font-style: italic;
+  }
+
+  /* line 606, scss/base.scss */
+  audio {
+    display: inline;
+  }
+
+  /* line 609, scss/base.scss */
+  em {
+    font-style: italic;
+  }
+
+  /* line 612, scss/base.scss */
+  embed {
+    width: 100%;
+  }
+
+  /* line 615, scss/base.scss */
+  fieldset {
+    font-size: 10px;
+  }
+
+  /* line 618, scss/base.scss */
+  footer {
+    width: 100%;
+  }
+
+  /* line 621, scss/base.scss */
+  form {
+    width: 100%;
+  }
+
+  /* line 624, scss/base.scss */
+  label {
+    font-size: 12px;
+    font-style: italic;
+  }
+
+  /* line 628, scss/base.scss */
+  legend {
+    font-size: 16px;
+  }
+
+  /* line 631, scss/base.scss */
+  span {
+    display: inline;
+  }
+
+  /* line 634, scss/base.scss */
+  strong {
+    font-weight: 600;
+  }
+
+  /* line 637, scss/base.scss */
+  textarea {
+    padding: 0;
+  }
+
+  /* line 640, scss/base.scss */
+  video {
+    object-fit: cover;
+    min-height: 100%;
+    width: 100%;
   }
 }
