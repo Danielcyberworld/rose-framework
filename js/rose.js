@@ -3,11 +3,17 @@ $("document").ready(function() {
   /* SET COVER IMAGES */
   $(".cover-image").each(function() {
     $(this).css("background", "url(" + $(this).data("src") + ")");
+    $(this).css("background-repeat", "no-repeat");
+    $(this).css("background-size", "cover");
+    $(this).css("background-position", "center");
   });
 
   /* SET SMALL COVER IMAGES */
   $(".cover-image-small").each(function() {
     $(this).css("background", "url(" + $(this).data("src") + ")");
+    $(this).css("background-repeat", "no-repeat");
+    $(this).css("background-size", "cover");
+    $(this).css("background-position", "center");
   });
 
   /* CHANGE NAVBAR ON SCROLL */
