@@ -8408,7 +8408,6 @@
   }
   .xs-horizontal-align {
     position: relative;
-    position: relative;
     left: 50%;
     transform: translate(-50%, 0%);
   }
@@ -12321,13 +12320,12 @@
 
   /* ALIGNMENT */
   .xs-vertical-align {
-    position: relative;
+    position: absolute;
     top: 50%;
     transform: translate(0%, -50%);
   }
   .xs-horizontal-align {
-    position: relative;
-    position: relative;
+    position: absolute;
     left: 50%;
     transform: translate(-50%, 0%);
   }
